@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Data Center Power Tracker</title>
+  <meta name="description" content="A sourced, regularly updated map of the largest AI data center projects: where they are, how much power they need, and where that power comes from.">
+  <meta property="og:title" content="AI Data Center Power Tracker">
+  <meta property="og:description" content="Where the largest AI data centers are being built, how much power they need, and where that power comes from. Every number links to its source.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://avishagminnes.github.io/ai-dc-power-tracker/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23eb6834'/%3E%3Cpath d='M18 4 8 18h7l-2 10 10-14h-7z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="AI Data Center Power Tracker, back to top">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7"/><path d="M18 4 8 18h7l-2 10 10-14h-7z"/></svg>
+        <span>AI DC Power Tracker</span>
+      </a>
+      <nav aria-label="Sections">
+        <a href="#map-section">Map</a>
+        <a href="#charts">Charts</a>
+        <a href="#table-section">Projects</a>
+        <a href="#changes">Changes</a>
+        <a href="#about">About</a>
+      </nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+    <section class="intro">
+      <h1>AI Data Center Power Tracker</h1>
+      <p class="lede">Where the largest AI data centers are being built, how much power they need, and where that power comes from. Every number links to its source.</p>
+      <p class="meta" id="updated">Loading data…</p>
+    </section>
+
+    <section class="stats" id="stats" aria-label="Summary of the projects shown" aria-live="polite"></section>
+
+    <section class="filters" aria-label="Filters">
+      <label class="field grow">
+        <span>Search</span>
+        <input id="f-q" type="search" placeholder="Project, company, place…" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Status</span>
+        <select id="f-status"><option value="">All statuses</option></select>
+      </label>
+      <label class="field">
+        <span>Power source</span>
+        <select id="f-power"><option value="">All sources</option></select>
+      </label>
+      <label class="field">
+        <span>Country</span>
+        <select id="f-country"><option value="">All countries</option></select>
+      </label>
+      <label class="check">
+        <input id="f-onsite" type="checkbox">
+        <span>Own power on site</span>
+      </label>
+      <div class="filter-summary">
+        <span id="count"></span>
+        <button type="button" class="link-btn" id="reset" hidden>Clear filters</button>
+      </div>
+    </section>
+
+    <section class="card" id="map-section" aria-labelledby="map-title">
+      <div class="card-head">
+        <h2 id="map-title">Map</h2>
+        <div class="legend" data-legend></div>
+      </div>
+      <div class="chips" role="group" aria-label="Zoom the map to a region">
+        <button type="button" data-region="world" aria-pressed="true">World</button>
+        <button type="button" data-region="north-america" aria-pressed="false">North America</button>
+        <button type="button" data-region="europe" aria-pressed="false">Europe</button>
+        <button type="button" data-region="middle-east" aria-pressed="false">Middle East</button>
+        <button type="button" data-region="asia-pacific" aria-pressed="false">Asia-Pacific</button>
+      </div>
+      <div id="map" role="region" aria-label="Map of projects. The table below lists the same projects."></div>
+      <div class="map-foot">
+        <div class="size-key" id="size-key" aria-label="Circle size shows planned power"></div>
+        <p class="hint">Circle area shows planned power. A hollow circle means no figure has been published. Click a circle for details and sources.</p>
+      </div>
+    </section>
+
+    <section class="grid-2" id="charts">
+      <div class="card">
+        <div class="card-head">
+          <h2>Planned power by source</h2>
+          <div class="legend" data-legend></div>
+        </div>
+        <p class="sub">Gigawatts (GW) across projects that use each source. A project that uses several sources counts in each, so the bars add up to more than the total.</p>
+        <div class="bars" id="chart-power"></div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h2>Planned power by country</h2>
+          <div class="legend" data-legend></div>
+        </div>
+        <p class="sub">Gigawatts (GW) of planned power, by status.</p>
+        <div class="bars" id="chart-country"></div>
+      </div>
+    </section>
+
+    <section class="card" id="table-section" aria-labelledby="table-title">
+      <div class="card-head">
+        <h2 id="table-title">All projects</h2>
+        <div class="downloads">
+          <button type="button" class="btn" id="download-csv">Download CSV</button>
+          <a class="btn" href="data/projects.json" download>JSON</a>
+        </div>
+      </div>
+      <p class="sub">Click a row for power details and sources. Click a column heading to sort.</p>
+      <div class="table-scroll">
+        <table id="table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div class="card" id="changes" aria-labelledby="changes-title">
+        <div class="card-head"><h2 id="changes-title">What changed</h2></div>
+        <ol class="changes" id="changelog"></ol>
+        <button type="button" class="link-btn" id="changes-more" hidden>Show all changes</button>
+      </div>
+      <div class="card prose" id="about" aria-labelledby="about-title">
+        <div class="card-head"><h2 id="about-title">About the data</h2></div>
+        <p>This tracker lists publicly announced data center campuses built for AI or hyperscale computing, with at least 100 MW of planned power and a known location.</p>
+        <h3>How it is collected</h3>
+        <p>The data is updated every week with Claude Code, an AI coding assistant. It searches recent news, company announcements and utility filings, and records only facts it can confirm in a source it opened. Every project lists its sources. A validation script checks every record before it is published, and every change is logged above.</p>
+        <h3>How to read the numbers</h3>
+        <ul>
+          <li><strong>Planned power</strong> is the full-build figure the developer announced. Some report total facility power, others IT load, and the record says which. Totals mix both, so treat them as an order of magnitude.</li>
+          <li><strong>Announced is not built.</strong> Large projects are often delayed, downsized or cancelled. Check the status.</li>
+          <li><strong>Locations</strong> are approximate (city or county) unless the exact site is public.</li>
+        </ul>
+        <h3>Corrections</h3>
+        <p id="corrections">Spotted an error or a missing project? Please get in touch with a link to a source.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer">
+      <span>Data: company announcements, filings and news reports, linked per project.</span>
+      <span>Map outlines: Natural Earth (public domain).</span>
+    </div>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

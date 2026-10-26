@@ -1,0 +1,2908 @@
+[
+  {
+    "id": "stargate-argentina",
+    "name": "Stargate Argentina",
+    "developer": "Sur Energy",
+    "tenants": [
+      "OpenAI"
+    ],
+    "city": "Neuquén (Confluencia department)",
+    "region": "Neuquén",
+    "country": "Argentina",
+    "lat": -38.95,
+    "lng": -68.06,
+    "location_precision": "county",
+    "capacity_mw": 500,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Power source not specified; the developers refer to secure, efficient and sustainable sources. 2026 reports name Central Puerto and Genneia as possible energy suppliers.",
+    "status": "announced",
+    "announced": "2025-10",
+    "expected_online": null,
+    "investment_usd_bn": 25,
+    "sources": [
+      {
+        "title": "OpenAI, Sur Energy to build massive AI data centre in Patagonia",
+        "publisher": "Buenos Aires Times",
+        "url": "https://batimes.com.ar/news/economy/openai-sur-energy-to-build-massive-ai-data-centre-in-patagonia.phtml",
+        "date": "2025-10-10"
+      },
+      {
+        "title": "Qué pasó con el mega data center de IA que proyectan para la Patagonia",
+        "publisher": "Diario Nuevo Día",
+        "url": "https://www.eldiarionuevodia.com.ar/regionales/que-paso-con-el-mega-data-center-de-ia-que-proyectan-para-la-patagonia-1135/",
+        "date": "2026-09-23"
+      },
+      {
+        "title": "Stargate Argentina status: no firm contract in 2026",
+        "publisher": "Neoteo",
+        "url": "https://www.neoteo.com/en/kargieman-said-stargate-argentina-had-no-firm-contract",
+        "date": "2026-10-25"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Letter of intent (October 2025) between OpenAI and Sur Energy for up to 500 MW and up to US$25bn under Argentina's RIGI incentive regime; both figures are proposed maximums. OpenAI would be the main buyer of compute. As of October 2026 the project had no firm contract (Clarín, cited by Neoteo), no RIGI application as of April 2026, and no construction start. The 2025 announcement gave only 'Patagonia'; 2026 local reports place the selected site in the Confluencia department of Neuquén, with no exact site confirmed; coordinates are Neuquén city."
+  },
+  {
+    "id": "western-downs-digital-park",
+    "name": "Western Downs Digital Park",
+    "developer": "Zerra DC (WDDP Pty Ltd)",
+    "tenants": [
+      "Anthropic"
+    ],
+    "city": "Dalby",
+    "region": "Queensland",
+    "country": "Australia",
+    "lat": -27.18,
+    "lng": 151.26,
+    "location_precision": "region",
+    "capacity_mw": 2160,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Grid-connected via switching stations at 275 kV and 330 kV near the Braemar transmission substation, with a proposed 540 MVA substation and battery-backed power conditioning in phase one. The site is near three gas-fired power stations and solar and wind farms; the Queensland government says no new transmission infrastructure is needed.",
+    "status": "announced",
+    "announced": "2026-08",
+    "expected_online": "2027 (first building)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Zerra files plans for $31b data centre campus",
+        "publisher": "Real Estate Source",
+        "url": "https://www.realestatesource.com.au/zerra-files-plans-for-31bn-queensland-data-centre-campus/",
+        "date": "2026-08-24"
+      },
+      {
+        "title": "Australia's largest proposed data centre could draw a quarter of Queensland's energy use",
+        "publisher": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-09-14/western-downs-digital-park-data-centre-energy-queensland/107115082",
+        "date": "2026-09-14"
+      },
+      {
+        "title": "AI giant Anthropic signs agreement for $32b Queensland data centre",
+        "publisher": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+        "date": "2026-09-16"
+      },
+      {
+        "title": "Why Anthropic went straight to a developer for its first Australian data centre",
+        "publisher": "Capacity Media",
+        "url": "https://capacityglobal.com/news/why-anthropic-went-straight-to-a-developer-for-its-first-australian-data-centre/",
+        "date": "2026-09-16"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Site at 1933 Dalby-Kogan Road, about 37 km north-west of Dalby; coordinates are Dalby. The initial application proposes four 360 MW buildings (1.44 GW IT). Real Estate Source describes potential expansion to six buildings and 2.16 GW, while ABC and Capacity Media describe 2.16 GW as peak power draw; basis therefore left unspecified. Development application lodged August 2026 and still before Western Downs Regional Council; four stages over four to six years. Anthropic's lease (September 2026) is subject to Foreign Investment Review Board approval and targets use from 2027. Reported value A$31.9bn at full build-out (construction cost about A$14.5bn)."
+  },
+  {
+    "id": "scala-ai-city-eldorado-do-sul",
+    "name": "Scala AI City",
+    "developer": "Scala Data Centers",
+    "tenants": [],
+    "city": "Eldorado do Sul",
+    "region": "Rio Grande do Sul",
+    "country": "Brazil",
+    "lat": -30.08,
+    "lng": -51.62,
+    "location_precision": "city",
+    "capacity_mw": 4750,
+    "capacity_basis": "it",
+    "power_sources": [
+      "grid",
+      "hydro",
+      "wind"
+    ],
+    "onsite_generation": null,
+    "utility": "National Interconnected System (SIN)",
+    "power_notes": "Brazil's Ministry of Mines and Energy authorised a 5 GW ramp-up connection to the National Interconnected System in May 2025; the first phase would use the Guaíba 3 substation. Scala cites long-term power purchase agreements with wind and hydro generators for 100% renewable energy.",
+    "status": "announced",
+    "announced": "2024-09",
+    "expected_online": "2028-2029 (first phase)",
+    "investment_usd_bn": 90,
+    "sources": [
+      {
+        "title": "Scala AI City: A Huge Bet in the Future of Artificial Intelligence in Brazil",
+        "publisher": "Frost & Sullivan",
+        "url": "https://www.frost.com/growth-opportunity-news/scala-ai-city-a-huge-bet-in-the-future-of-artificial-intelligence-in-brazil/",
+        "date": "2024-10-14"
+      },
+      {
+        "title": "Scala AI City: Brazil's Ministry of Mines and Energy approves 5 GW power connection for data center city in Rio Grande do Sul",
+        "publisher": "Intelligent CIO",
+        "url": "https://www.intelligentcio.com/latam/2025/05/15/scala-ai-city-brazils-ministry-of-mines-and-energy-approves-5-gw-power-connection-for-data-center-city-in-rio-grande-do-sul/",
+        "date": "2025-05-15"
+      },
+      {
+        "title": "Vice-presidente da Scala diz que AI City de Eldorado do Sul deve iniciar obras em 2027",
+        "publisher": "Guaíba Online",
+        "url": "https://www.guaiba.online/noticia/vice-presidente-da-scala-diz-que-ai-city-de-eldorado-do-sul-deve-iniciar-obras-em-2027",
+        "date": "2026-07-02"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "First phase 54 MW IT (described as 50 MW in July 2026), BRL 3bn (about US$500m). Full build-out 4.75 GW IT; a July 2026 report cites expansion of up to 5 GW. As of July 2026 the project was awaiting environmental, urban planning and road licences; works expected from 2027, first structures through 2028 and operations from late 2028 to early 2029, conditional on licensing. US$90bn is Scala's stated potential total investment. No tenant announced."
+  },
+  {
+    "id": "wonder-valley-alberta",
+    "name": "Wonder Valley",
+    "developer": "O'Leary Ventures",
+    "tenants": [],
+    "city": "Grande Prairie (Municipal District of Greenview)",
+    "region": "Alberta",
+    "country": "Canada",
+    "lat": 55.17,
+    "lng": -118.79,
+    "location_precision": "region",
+    "capacity_mw": 7500,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "geothermal"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Planned to use local Montney Formation natural gas as its power source, supplemented by geothermal energy.",
+    "status": "announced",
+    "announced": "2024-12",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "The truth about Wonder Valley, Kevin O'Leary's data-centre dream",
+        "publisher": "The Logic",
+        "url": "https://thelogic.co/news/the-big-read/wonder-valley-data-centre-alberta-kevin-oleary/",
+        "date": "2025-12-10"
+      },
+      {
+        "title": "What's going on with Kevin O'Leary's Canadian data center?",
+        "publisher": "Deseret News",
+        "url": "https://www.deseret.com/business/2026/05/11/kevin-oleary-shark-tank-utah-data-center-alberta-canada-water-use-air-quality-pollution-great-salt-lake/",
+        "date": "2026-05-11"
+      },
+      {
+        "title": "Alberta First Nation in court over massive proposed 'Wonder Valley' AI data centre",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/11895544/wonder-valley-sturgeon-lake-cree-nation-court/",
+        "date": "2026-06-08"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Proposed site in the Greenview Industrial Gateway, more than 40 km outside Grande Prairie; coordinates are Grande Prairie. 7.5 GW at full build-out. Original plan was construction from 2026 and a first phase by 2027; 2026 reporting says construction is not expected before 2028. Alberta exempted the project from a provincial environmental impact assessment, but permits are still required. Global News describes it as a $70-billion project (currency not specified) and reported a First Nation court challenge in June 2026. No tenant secured."
+  },
+  {
+    "id": "campus-ia-fouju",
+    "name": "Campus IA Fouju",
+    "developer": "Campus IA (joint venture of MGX, Bpifrance, Mistral AI and Nvidia)",
+    "tenants": [],
+    "city": "Fouju",
+    "region": "Seine-et-Marne, Île-de-France",
+    "country": "France",
+    "lat": 48.59,
+    "lng": 2.77,
+    "location_precision": "city",
+    "capacity_mw": 1400,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "RTE",
+    "power_notes": "Connected to RTE's 400 kV transmission network via a dedicated substation built by Eiffage. RTE is to supply a first 240 MW by end-2027 and 700 MW before end-2029 ahead of the definitive connection.",
+    "status": "under_construction",
+    "announced": "2025-02",
+    "expected_online": "2028 (phase 1)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Le préfet de Seine-et-Marne a validé le projet Campus IA de Fouju (1,4 GW et 50 milliards €)",
+        "publisher": "DCmag",
+        "url": "https://dcmag.fr/le-prefet-de-seine-et-marne-a-valide-le-projet-campus-ia-de-fouju-14-gw-et-50-milliards-e/",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "La préfecture de Seine-et-Marne autorise l'installation de Campus IA à Fouju",
+        "publisher": "Next",
+        "url": "https://next.ink/brief-article/la-prefecture-de-seine-et-marne-autorise-linstallation-de-campus-ia-a-fouju/",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Campus IA : toute l'actu du projet",
+        "publisher": "Communauté de communes Brie des Rivières et Châteaux",
+        "url": "https://www.briedesrivieresetchateaux.fr/a-la-une/campus-ia-la-vie-du-projet/",
+        "date": "2026-09"
+      },
+      {
+        "title": "Arcadis participe à la construction du campus IA de Fouju (77) à 1,4 GW",
+        "publisher": "DCmag",
+        "url": "https://dcmag.fr/arcadis-participe-a-la-construction-du-plus-campus-ia-de-fouju-77-a-14-gw/",
+        "date": "2025-12-11"
+      },
+      {
+        "title": "Choose France : Un campus IA en Ile-de-France avec Bpi, MGX, Mistral et Nvidia",
+        "publisher": "Le Monde Informatique",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-choose-france-un-campus-ia-en-ile-de-france-avec-bpi-mgx-mistral-et-nvidia-96873.html",
+        "date": "2025-05-19"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Announced by President Macron in February 2025; the joint venture presented the Île-de-France campus at Choose France in May 2025. The Seine-et-Marne prefect authorised the project on 29 July 2026, and phase 1 site works (fencing, biodiversity measures, ongoing archaeological excavation) began in September 2026 per the local intercommunality. Eleven data centre buildings on about 89 ha. Phase 1 commissioning targeted for 2028; later phases 2030-2033 and 2034-2038 (DCmag, Aug 2026). Investment reported at EUR 30-50bn, not officially confirmed. A collective of associations announced a legal challenge. Operators/tenants not yet named."
+  },
+  {
+    "id": "google-ai-hub-visakhapatnam",
+    "name": "Google AI hub Visakhapatnam",
+    "developer": "Google, with AdaniConneX and Nxtra by Airtel",
+    "tenants": [
+      "Google"
+    ],
+    "city": "Visakhapatnam",
+    "region": "Andhra Pradesh",
+    "country": "India",
+    "lat": 17.69,
+    "lng": 83.22,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "AdaniConneX and Google plan to co-invest in new transmission lines, clean energy generation and energy storage systems in Andhra Pradesh; AdaniConneX aims to run the hub on green power where possible.",
+    "status": "under_construction",
+    "announced": "2025-10",
+    "expected_online": "2028-07",
+    "investment_usd_bn": 15,
+    "sources": [
+      {
+        "title": "Adani and Google Partner to Build India's Largest Data Centre Campus in Visakhapatnam",
+        "publisher": "Adani Group",
+        "url": "https://www.adani.com/newsroom/media-releases/adani-and-google-partner-to-build-indias-largest-data-centre-campus-in-visakhapatnam",
+        "date": "2025-10-14"
+      },
+      {
+        "title": "Airtel partners with Google to establish India's first mega AI hub and data center in Visakhapatnam",
+        "publisher": "Bharti Airtel",
+        "url": "https://www.airtel.in/press-release/10-2025/airtel-partners-with-google-to-establish-indias-first-mega-ai-hub-and-data-center-in-visakhapatnam/",
+        "date": "2025-10-14"
+      },
+      {
+        "title": "Google's big India bet: $15 Billion Vizag AI data centre foundation to be laid on April 28",
+        "publisher": "Business Today",
+        "url": "https://www.businesstoday.in/amp/technology/story/googles-big-india-bet-15-billion-vizag-ai-data-centre-foundation-to-be-laid-on-april-28-527498-2026-04-27",
+        "date": "2026-04-27"
+      },
+      {
+        "title": "Google breaks ground for US$ 15 billion India AI hub in Vishakhapatnam",
+        "publisher": "W.Media",
+        "url": "https://w.media/google-breaks-ground-for-us-15-billion-india-ai-hub-in-vishakhapatnam/",
+        "date": "2026-04-28"
+      },
+      {
+        "title": "Google Starts Construction on USD 15 Billion AI Hub in Visakhapatnam, India",
+        "publisher": "Telecom Review Asia",
+        "url": "https://www.telecomreviewasia.com/news/industry-news/29141-google-starts-construction-on-usd-15-billion-ai-hub-in-visakhapatnam-india/",
+        "date": "2026-05-07"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Three campuses on about 600 acres at Tarluvada and Adavivaram (Visakhapatnam district) and Rambilli (Anakapalli district). Google and its partners describe it as gigawatt-scale without a figure; the 1 GW figure is from Business Today, which also says data centre capacity is eventually targeted to reach 5 GW. Ground broken 28 April 2026; completion expected by July 2028 (Business Today). US$15bn is the investment over 2026-2030 for the whole AI hub, including subsea cable landing and fibre."
+  },
+  {
+    "id": "reliance-jamnagar-ai-data-centre",
+    "name": "Reliance Jamnagar AI data centre",
+    "developer": "Reliance Industries (Reliance Intelligence)",
+    "tenants": [
+      "Meta"
+    ],
+    "city": "Jamnagar",
+    "region": "Gujarat",
+    "country": "India",
+    "lat": 22.47,
+    "lng": 70.06,
+    "location_precision": "city",
+    "capacity_mw": 3000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "solar",
+      "wind"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Reliance says the data centre will be powered entirely by renewable energy. A 2025 report said power would come primarily from an adjacent green energy complex producing solar, wind and hydrogen power.",
+    "status": "under_construction",
+    "announced": "2025-01",
+    "expected_online": "2026 (first 120 MW, by end of 2026)",
+    "investment_usd_bn": 30,
+    "sources": [
+      {
+        "title": "Reliance plans world's biggest AI data centre in India, report says",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2025/01/23/reliance-plans-world-biggest-ai-data-centre-in-india-report-says",
+        "date": "2025-01-23"
+      },
+      {
+        "title": "Reliance unveils $110B AI investment plan as India ramps up tech ambitions",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/",
+        "date": "2026-02-19"
+      },
+      {
+        "title": "Reliance AGM 2026: From AI data centers to Jio AI apps, top announcements",
+        "publisher": "Digit",
+        "url": "https://www.digit.in/news/general/reliance-agm-2026-from-ai-data-centers-to-jio-ai-apps-top-announcements.html",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "Meta Partners With Reliance on AI-Enabled Data Center in India",
+        "publisher": "Meta",
+        "url": "https://about.fb.com/news/2026/06/meta-partners-with-reliance-on-ai-enabled-data-center-in-india/",
+        "date": "2026-06-09"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "The 3 GW total was reported by Bloomberg in January 2025 (via TechCrunch) and has not been confirmed by Reliance, which in February 2026 described multi-gigawatt data centres under construction at Jamnagar. First phase of 120 MW expected to be operational by end of 2026 (Reliance AGM, June 2026). Separately, Reliance will build a 168 MW first-phase facility at Jamnagar for Meta to lease, with options to scale, cooled with desalinated seawater (announced June 2026). Investment figure is the upper end of a reported US$20-30bn range from the 2025 report."
+  },
+  {
+    "id": "softbank-tomakomai-ai-data-center",
+    "name": "Hokkaido Tomakomai AI Data Center",
+    "developer": "SoftBank Corp.",
+    "tenants": [
+      "SoftBank Corp."
+    ],
+    "city": "Tomakomai",
+    "region": "Hokkaido",
+    "country": "Japan",
+    "lat": 42.63,
+    "lng": 141.61,
+    "location_precision": "city",
+    "capacity_mw": 300,
+    "capacity_basis": "facility",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "SoftBank plans to use 100% renewable energy produced within Hokkaido; the generation type has not been specified.",
+    "status": "under_construction",
+    "announced": "2024",
+    "expected_online": "FY2026 (by March 2027, first 50 MW)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "次世代社会インフラ構想実現への第一歩。最先端のAI基盤を搭載する日本最大級「北海道苫小牧AIデータセンター」起工式",
+        "publisher": "SoftBank News",
+        "url": "https://www.softbank.jp/sbnews/entry/20250421_01",
+        "date": "2025-04-21"
+      },
+      {
+        "title": "SoftBank breaks ground for AI data center in Hokkaido",
+        "publisher": "W.Media",
+        "url": "https://w.media/softbank-breaks-ground-for-ai-data-center-in-hokkaido/",
+        "date": "2025-04-30"
+      },
+      {
+        "title": "Building for the AI Era: An Inside Look at SoftBank Corp.'s Next-generation AI Data Center in Hokkaido",
+        "publisher": "SoftBank News",
+        "url": "https://www.softbank.jp/en/sbnews/entry/20260225_01",
+        "date": "2026-02-25"
+      },
+      {
+        "title": "ソフトバンク、北海道苫小牧に国内最大AIデータセンター稼働——NVIDIA「Rubin」国内初導入",
+        "publisher": "AI Industry (ai-industry.jp)",
+        "url": "https://ai-industry.jp/trends/softbank-tomakomai-ai-datacenter-rubin/",
+        "date": "2026-04-16"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "First phase 50 MW; power receiving capacity planned to expand to more than 300 MW on a site of about 700,000 sq m (capacity_mw uses the 300 MW floor of that figure). Ground broken 15 April 2025. SoftBank said in February 2026 that construction was under way and it is targeting opening in fiscal 2026 (ending March 2027). One Japanese AI news site reported full operation from 1 April 2026 with more than 4,000 Nvidia GPUs; SoftBank has not confirmed this, so status is kept as under construction. W.Media reported an investment of about JPY 65bn (about US$456m), with up to JPY 30bn in METI subsidies. The 300 MW plan appeared in SoftBank's Integrated Report 2024."
+  },
+  {
+    "id": "ytl-green-data-center-park-kulai",
+    "name": "YTL Green Data Center Park",
+    "developer": "YTL Power International (YTL Data Centers)",
+    "tenants": [
+      "Sea"
+    ],
+    "city": "Kulai",
+    "region": "Johor",
+    "country": "Malaysia",
+    "lat": 1.66,
+    "lng": 103.6,
+    "location_precision": "city",
+    "capacity_mw": 1200,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "solar",
+      "grid"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Designed to be powered by on-site solar generation matching data centre capacity (described in 2025 as a 500 MW solar plant), with 600 MW of backup supply from the national grid.",
+    "status": "partially_operational",
+    "announced": "2022-04",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "YTL and GDS to partner on 168MW data center development at the visionary YTL Green Data Center Park in Johor, Malaysia",
+        "publisher": "YTL Data Centers",
+        "url": "https://ytldatacenters.com/pr/ytl-and-gds-to-partner-on-168mw-data-center-development-at-the-visionary-ytl-green-data-center-park-in-johor-malaysia/",
+        "date": "2022-04-27"
+      },
+      {
+        "title": "YTL Data Centers and Sea Break Ground with the RM1.5bil First Phase of the 500MW YTL Green Data Center Park in Johor",
+        "publisher": "MIDA",
+        "url": "https://www.mida.gov.my/media-release/ytl-data-centers-and-sea-break-ground-with-the-rm1-5bil-first-phase-of-the-500mw-ytl-green-data-center-park-in-johor/",
+        "date": "2022-08-25"
+      },
+      {
+        "title": "Malaysia powers up AI with Nvidia-backed data centre",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com.my/business/business-news/2025/10/31/malaysia-powers-up-sovereign-ai-with-nvidia-backed-data-centre",
+        "date": "2025-10-31"
+      },
+      {
+        "title": "YTL Power completes Nvidia-powered AI data centre in Johor",
+        "publisher": "W.Media",
+        "url": "https://w.media/ytl-power-completes-nvidia-powered-ai-data-centre-in-johor/",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "YTL Power expands Johor data centre footprint",
+        "publisher": "New Straits Times",
+        "url": "https://www.nst.com.my/amp/business/corporate/2026/08/1514627/ytl-power-expands-johor-data-centre-footprint",
+        "date": "2026-08-19"
+      },
+      {
+        "title": "STeP West deal to take YTL Power's DC capacity beyond 2GW - analysts",
+        "publisher": "New Straits Times",
+        "url": "https://www.nst.com.my/amp/business/corporate/2026/08/1515008/step-west-deal-take-ytl-powers-dc-capacity-beyond-2gw-%E2%80%93-analysts",
+        "date": "2026-08-20"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Announced in 2022 at 500 MW, later described as 600 MW, and upsized in 2026 to a planned capacity of up to 1.2 GW. Sea was anchor tenant of the first phase (up to 72 MW). The Nvidia GB200-based YTL AI Cloud facility was completed and operational in October 2025; YTL said in late 2025 that 300 MW was being built and commissioned on site. Current energised capacity not confirmed by a primary source. In August 2026 YTL Power also announced a separate gigawatt-scale campus at Sedenak Tech Park West, Johor (not included here)."
+  },
+  {
+    "id": "nscale-narvik-kvandal",
+    "name": "Nscale Narvik AI campus (Kvandal), formerly Stargate Norway",
+    "developer": "Nscale (formerly the Aker Nscale joint venture with Aker)",
+    "tenants": [
+      "Microsoft"
+    ],
+    "city": "Narvik",
+    "region": "Nordland",
+    "country": "Norway",
+    "lat": 68.44,
+    "lng": 17.43,
+    "location_precision": "city",
+    "capacity_mw": 520,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "hydro"
+    ],
+    "onsite_generation": null,
+    "utility": "Vattenfall (power purchase agreement)",
+    "power_notes": "Vattenfall signed a long-term renewable power purchase agreement in May 2026 covering a significant part of the first phase's electricity needs for 2027 to 2031. The site was chosen for abundant hydropower and is described as powered entirely by renewable energy.",
+    "status": "under_construction",
+    "announced": "2025",
+    "expected_online": "2027",
+    "investment_usd_bn": 1,
+    "sources": [
+      {
+        "title": "Vattenfall and Nscale partner to support AI infrastructure growth in Norway",
+        "publisher": "Vattenfall",
+        "url": "https://group.vattenfall.com/press-and-media/pressreleases/2026/vattenfall-and-nscale-partner-to-support-ai-infrastructure-growth-in-norway/",
+        "date": "2026-05-26"
+      },
+      {
+        "title": "OpenAI scales back Stargate in Europe; Microsoft fills the gap",
+        "publisher": "Techzine",
+        "url": "https://techzine.eu/news/infrastructure/140487/openai-scales-back-stargate-in-europe-microsoft-fills-the-gap",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Latest Updates on Narvik AI Data Center in Norway",
+        "publisher": "Construction Review Online",
+        "url": "https://constructionreviewonline.com/narvik-ai-data-center-in-norway-secures-790-million-financing/",
+        "date": "2026-05-26"
+      },
+      {
+        "title": "Nscale, Nordkraft Form Venture to Run Narvik AI Data Center",
+        "publisher": "The Energy Mag",
+        "url": "https://theenergymag.com/news/2026-07-06/nscale-nordkraft-form-venture-narvik-ai-data-center",
+        "date": "2026-07-06"
+      },
+      {
+        "title": "OpenAI, Nscale & Aker launch Stargate Norway, a sovereign AI gigafactory in northern Norway",
+        "publisher": "Datacenter Forum",
+        "url": "https://www.datacenter-forum.com/nscale/openai-nscale-aker-launch-stargate-norway-a-sovereign-ai-gigafactory-in-northern-norway",
+        "date": "2025-10-27"
+      },
+      {
+        "title": "OpenAI To Build Massive AI Data Centre In Northern Norway",
+        "publisher": "Life in Norway",
+        "url": "https://www.lifeinnorway.net/openai-to-build-massive-ai-data-centre-in-northern-norway/",
+        "date": "2025-08-01"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Initial build is 230 MW; capacity_mw is the up-to-520 MW figure including a potential 290 MW expansion. An uncommitted $790m financing accordion is earmarked for a 115 MW expansion; Nscale secured $790m of committed debt in May 2026. Announced in 2025 as Stargate Norway with OpenAI as initial off-taker; in April 2026 Microsoft took over that capacity (more than 30,000 Nvidia Rubin GPUs for delivery in 2027) and OpenAI said it will lease the capacity through Microsoft. Construction began in 2025 per The Energy Mag. Investment figure is the roughly US$1bn initial phase. Site is at Kvandal outside Narvik; coordinates are Narvik."
+  },
+  {
+    "id": "start-campus-sines",
+    "name": "SINES Data Campus (Start Campus)",
+    "developer": "Start Campus",
+    "tenants": [
+      "Nscale",
+      "Microsoft"
+    ],
+    "city": "Sines",
+    "region": "Setúbal District",
+    "country": "Portugal",
+    "lat": 37.96,
+    "lng": -8.87,
+    "location_precision": "city",
+    "capacity_mw": 1200,
+    "capacity_basis": "it",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "The project includes a 400/150 kV substation and Start Campus describes the campus as powered entirely by renewable energy. The first building uses seawater cooling via the former coal plant's intake.",
+    "status": "partially_operational",
+    "announced": "2021",
+    "expected_online": "2030 (full build); SIN02 2027",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Portugal: Construction of second Start Campus data centre block to start in Feb",
+        "publisher": "Lusa (via AMAN Alliance)",
+        "url": "https://www.aman-alliance.org/Home/ContentDetail/99289",
+        "date": "2026-01-13"
+      },
+      {
+        "title": "Start Campus: Coal Site to 1.2 GW Data Campus in Portugal",
+        "publisher": "Construction Digital",
+        "url": "https://constructiondigital.com/news/start-campus-coal-site-to-1-2-gw-data-campus-in-portugal",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Microsoft StartCampus Expansion Plans Unveiled by Nscale",
+        "publisher": "Portugal Global (AICEP)",
+        "url": "https://portugalglobal.pt/en/news/2026/maio/microsoft-startcampus-expansion-plans-unveiled-by-nscale/",
+        "date": "2026-05-06"
+      },
+      {
+        "title": "A Defining Moment for Start Campus & Portugal: Powering Europe's Next-Generation AI Infrastructure",
+        "publisher": "Start Campus",
+        "url": "https://blog.startcampus.pt/a-defining-moment-for-start-campus",
+        "date": "2025-10-28"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Six buildings totalling 1.2 GW of IT load on the site of a decommissioned EDP coal plant. SIN01 (31 MW) has been operational since late 2024 and is fully leased, hosting Nvidia GB300 GPUs deployed by Nscale for Microsoft. SIN02 (180 MW IT) construction was scheduled to start in mid-February 2026 (subject to confirmation) with completion in mid-2027. In 2026 Nscale announced over 66,000 Nvidia Rubin GPUs for Microsoft at the campus and a EUR 465m investment in a second 200 MW building. Full completion is given as 2030 (Construction Digital) or the early 2030s (Lusa). Project classified as of National Interest by the Portuguese government in March 2021."
+  },
+  {
+    "id": "humain-riyadh-al-saad-campus",
+    "name": "Humain Riyadh hyperscale AI data centre campus (Al-Saad)",
+    "developer": "Humain (Public Investment Fund)",
+    "tenants": [],
+    "city": "Riyadh",
+    "region": "Riyadh Province",
+    "country": "Saudi Arabia",
+    "lat": 24.71,
+    "lng": 46.68,
+    "location_precision": "city",
+    "capacity_mw": 6000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Infrastructure scope includes a 380kV/132kV/33kV electrical distribution network, two substations (500MVA and 200MVA) and a 2,000MVA bulk supply point.",
+    "status": "announced",
+    "announced": "2026-05",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Humain tenders infrastructure for 6GW data centre campus",
+        "publisher": "MEED",
+        "url": "https://guest.meed.com/humain-tenders-6gw-data-centre-campus-infrastructure/",
+        "date": "2026-05-04"
+      },
+      {
+        "title": "Contractor wins 6GW data centre campus infrastructure",
+        "publisher": "MEED",
+        "url": "https://guest.meed.com/contractor-wins-6gw-data-centre-campus-infrastructure/",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "Humain tenders 100MW Riyadh AI data centre",
+        "publisher": "MEED",
+        "url": "https://guest.meed.com/humain-tenders-100mw-riyadh-ai-data-centre/",
+        "date": "2026-10-16"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Planned 6 GW campus on a 24 sq km site in the Al-Saad area of east Riyadh, to be delivered in two phases across six plots of 1 GW each. Dammam-based Al-Yamama won the campus infrastructure contract on an early contractor involvement basis (reported Sept 2026); no construction start or completion date has been published. Separately, Humain tendered an EPC contract (Oct 2026) for a 100 MW (optionally 200 MW) AI data centre in Al-Saad, with the first 50 MW targeted for October 2028 and grid connections from Saudi Electricity Company; MEED does not state whether that facility is part of the 6 GW campus."
+  },
+  {
+    "id": "sk-aws-ulsan-ai-data-center",
+    "name": "SK-AWS Ulsan AI Data Center",
+    "developer": "SK Group (SK Telecom, SK Ecoplant)",
+    "tenants": [
+      "Amazon Web Services"
+    ],
+    "city": "Ulsan",
+    "region": "Ulsan",
+    "country": "South Korea",
+    "lat": 35.54,
+    "lng": 129.31,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas"
+    ],
+    "onsite_generation": null,
+    "utility": "SK Multi Utility",
+    "power_notes": "SK Multi Utility will supply electricity from an LNG-fed combined heat and power plant, with LNG supplied by SK Gas; the site is next to SK Gas's LNG combined-cycle plant at the Mipo National Industrial Complex.",
+    "status": "under_construction",
+    "announced": "2025-06",
+    "expected_online": "2027-H2",
+    "investment_usd_bn": 5.2,
+    "sources": [
+      {
+        "title": "SK Group and AWS Team Up to Build Cloud Computing Infrastructure to Support AI Innovation",
+        "publisher": "SK Group",
+        "url": "https://eng.sk.com/news/sk-group-and-aws-team-up-to-build-cloud-computing-infrastructure-to-support-ai-innovation",
+        "date": "2025-06-22"
+      },
+      {
+        "title": "SK, AWS to build South Korea's largest, multibillion-dollar AI data center",
+        "publisher": "KED Global",
+        "url": "https://www.kedglobal.com/tech,-media-telecom/newsView/ked202506160002",
+        "date": "2025-06-16"
+      },
+      {
+        "title": "SK, AWS break ground on Korea's largest AI center in Ulsan",
+        "publisher": "The Korea Herald",
+        "url": "https://www.koreaherald.com/article/10564870",
+        "date": "2025-08-29"
+      },
+      {
+        "title": "SK Group chief to visit AI data center under construction in Ulsan",
+        "publisher": "The Korea Times (Yonhap)",
+        "url": "https://www.koreatimes.co.kr/business/companies/20260910/sk-group-chief-to-visit-ai-data-center-under-construction-in-ulsan",
+        "date": "2026-09-10"
+      },
+      {
+        "title": "SK Hyper Seeks $350 Billion for Korea's Largest AI Data Center Buildout",
+        "publisher": "Tech Times",
+        "url": "https://www.techtimes.com/articles/329475/20261026/sk-hyper-seeks-350-billion-koreas-largest-ai-data-center-buildout.htm",
+        "date": "2026-10-26"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located in Ulsan's Mipo National Industrial Complex. Committed phases: 41 MW by November 2027, scaling to 103 MW by February 2029 (KED Global, 2025). capacity_mw is the eventual 1 GW target cited by KED Global's sources; Tech Times (Oct 2026) describes a phased target approaching 900 MW and an ultimate aim of more than 1 GW. Ground broken 29 August 2025; operations scheduled for H2 2027. Total cost about 7 trillion won (about US$5.2bn), with AWS reported to commit US$4bn."
+  },
+  {
+    "id": "stargate-uae-abu-dhabi",
+    "name": "Stargate UAE (UAE-US AI Campus)",
+    "developer": "G42 (Khazna Data Centres)",
+    "tenants": [
+      "OpenAI",
+      "Oracle"
+    ],
+    "city": "Abu Dhabi",
+    "region": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "lat": 24.45,
+    "lng": 54.38,
+    "location_precision": "region",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "nuclear",
+      "solar",
+      "natural_gas"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "The wider 5 GW UAE-US AI Campus was announced as drawing on nuclear, solar and gas power. No power arrangement specific to the Stargate UAE cluster has been published.",
+    "status": "under_construction",
+    "announced": "2025-05",
+    "expected_online": "2026 (first 200 MW)",
+    "investment_usd_bn": 30,
+    "sources": [
+      {
+        "title": "Stargate to land its first offshore datacenters in the United Arab Emirates",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/2025/05/23/stargate_uae/",
+        "date": "2025-05-23"
+      },
+      {
+        "title": "G42 to build 5GW UAE-US AI Campus in Abu Dhabi",
+        "publisher": "W.Media",
+        "url": "https://w.media/g42-to-build-5gw-uae-us-ai-campus-in-abu-dhabi/",
+        "date": "2025-05-16"
+      },
+      {
+        "title": "Stargate UAE progress: Abu Dhabi's huge AI campus begins to take shape",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/business/2025/10/16/g42-unit-khazna-targets-full-build-out-of-1gw-stargate-uae-project-in-three-years/",
+        "date": "2025-10-16"
+      },
+      {
+        "title": "Stargate UAE's first phase to be completed in third quarter of 2026",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/business/2025/12/05/stargate-uaes-first-phase-to-be-completed-in-third-quarter-of-2026/",
+        "date": "2025-12-05"
+      },
+      {
+        "title": "Exclusive-UAE revises AI data center plan after Iranian attacks, sources say",
+        "publisher": "Reuters (via Internazionale)",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/11/exclusive-uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say",
+        "date": "2026-09-11"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "1 GW Stargate UAE cluster inside the planned 5 GW UAE-US AI Campus. Partners named: G42/Khazna, OpenAI, Oracle, Nvidia, Cisco and SoftBank. The first 200 MW was targeted for Q3 2026 (Mubadala, Dec 2025); no confirmation that it was online was found as of 2026-10-26. G42 targeted full build-out of the 1 GW cluster within three years (Oct 2025). In September 2026 Reuters reported that the UAE is revising the 5 GW campus plan, likely into a network of sites across the country with added air defences, after Iranian attacks; G42 said work is progressing as planned. Exact site not public (Reuters sources placed it near Al Dhafra Air Base); coordinates are Abu Dhabi city."
+  },
+  {
+    "id": "qts-cambois-northumberland",
+    "name": "QTS Cambois Data Centre Campus",
+    "developer": "QTS (Blackstone)",
+    "tenants": [],
+    "city": "Cambois (near Blyth)",
+    "region": "Northumberland",
+    "country": "United Kingdom",
+    "lat": 55.16,
+    "lng": -1.53,
+    "location_precision": "city",
+    "capacity_mw": 720,
+    "capacity_basis": "it",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "under_construction",
+    "announced": "2024",
+    "expected_online": "2029 (Phase A)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "QTS reaffirms commitment to North East AI Growth Zone",
+        "publisher": "Data Centre Review",
+        "url": "https://datacentrereview.com/2026/04/qts-reaffirms-commitment-to-north-east-ai-growth-zone/",
+        "date": "2026-04-14"
+      },
+      {
+        "title": "Plans in for first phase of Cambois Data Centre Campus",
+        "publisher": "Place North East",
+        "url": "https://www.placenortheast.co.uk/plans-in-for-first-phase-of-cambois-data-centre-campus/",
+        "date": "2025-05-27"
+      },
+      {
+        "title": "QTS fleshes out £10bn hyperscale data centre vision",
+        "publisher": "Place North East",
+        "url": "https://placenortheast.co.uk/qts-fleshes-out-10bn-hyperscale-data-centre-vision",
+        "date": "2024-09-03"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Up to 10 buildings of up to 72 MW IT each (about 720 MW IT at full build-out) on the former Blyth Power Station site; a 2024 report estimated the site's power requirement at about 1,100 MW. Investment of up to GBP 10bn. Outline planning permission granted March 2025; site preparation under way, and QTS said in April 2026 it would install piling foundations for the first data centre building that spring. Phase A was expected to complete around 2029, with four further phases and final completion estimated for 2035 (Place North East, 2025). No tenant announced."
+  },
+  {
+    "id": "openai-project-camellia",
+    "name": "Project Camellia",
+    "developer": "OpenAI",
+    "tenants": [
+      "OpenAI"
+    ],
+    "city": "Effingham County",
+    "region": "Georgia",
+    "country": "United States",
+    "lat": 32.37,
+    "lng": -81.34,
+    "location_precision": "county",
+    "capacity_mw": 3200,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "Georgia Power",
+    "power_notes": "OpenAI contracted with Georgia Power for 3.2 GW, delivered in phases from 2028 to 2032 under a 25-year agreement that includes up to 1,000 MW of flexible demand response. OpenAI said it will pay the full infrastructure and electric-service costs.",
+    "status": "announced",
+    "announced": "2026-07",
+    "expected_online": "2028 (phased to 2032)",
+    "investment_usd_bn": 30,
+    "sources": [
+      {
+        "title": "OpenAI plans to build its own 3.2 GW data center campus in Georgia",
+        "publisher": "W.Media",
+        "url": "https://w.media/openai-plans-to-build-its-own-3-2-gw-data-center-campus-in-georgia/",
+        "date": "2026-07-23"
+      },
+      {
+        "title": "OpenAI's AI spending spree has ballooned to $750B",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+        "date": "2026-07-22"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Four buildings on 1,400 acres in the Savannah Gateway Industrial Hub, northwest of Savannah. OpenAI is designing and developing the campus itself. Effingham County values the project at $20 billion; OpenAI's Sachin Katti told Bloomberg it will cost more than $30 billion at full build-out, the figure used here. As of July 2026 the site plan, design, permitting and financing were still to be completed."
+  },
+  {
+    "id": "meta-lebanon-indiana",
+    "name": "Meta Lebanon data center campus (LEAP District)",
+    "developer": "Meta",
+    "tenants": [
+      "Meta"
+    ],
+    "city": "Lebanon",
+    "region": "Indiana",
+    "country": "United States",
+    "lat": 40.04722,
+    "lng": -86.45,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "Boone Power and Wabash Valley Power Alliance (regional cooperatives)",
+    "power_notes": "Bisnow reports power will come at least in part from regional cooperatives Boone Power and the Wabash Valley Power Alliance. Meta says it will match 100% of the facility's energy use with clean energy and pay the full cost of the energy it uses.",
+    "status": "under_construction",
+    "announced": "2026-02",
+    "expected_online": null,
+    "investment_usd_bn": 10,
+    "sources": [
+      {
+        "title": "Meta's New Data Center in Lebanon, Indiana Marks a Milestone AI Investment",
+        "publisher": "Meta",
+        "url": "https://about.fb.com/news/2026/02/metas-new-data-center-lebanon-indiana-marks-milestone-ai-investment/",
+        "date": "2026-02-11"
+      },
+      {
+        "title": "Gov. Braun breaks ground on $10B Meta data center campus at LEAP District",
+        "publisher": "Indiana Economic Development Corporation",
+        "url": "https://iedc.in.gov/events/news/details/2026/02/11/gov.-braun-breaks-ground-on-10b-meta-data-center-campus-at-leap-district",
+        "date": "2026-02-11"
+      },
+      {
+        "title": "Meta Unveils Plans For $10B Data Center Megacampus",
+        "publisher": "Bisnow",
+        "url": "https://www.bisnow.com/news/national/data-center-development/meta-unveils-10b-data-center-megacampus-planned-near-indianapolis-133195",
+        "date": "2026-02-12"
+      },
+      {
+        "title": "Meta breaks ground on $10B data center campus in Lebanon",
+        "publisher": "WRTV",
+        "url": "https://www.wrtv.com/news/local-news/meta-breaks-ground-on-10b-data-center-campus-in-lebanon",
+        "date": "2026-02-11"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Groundbreaking was held on 2026-02-11 in Boone County. The 1,500-acre campus is planned in up to six phases with 13 buildings, including 10 data center buildings. Investment is stated as over $10B. No 2026 construction milestone or online date was found."
+  },
+  {
+    "id": "aws-project-rainier-new-carlisle",
+    "name": "Project Rainier (New Carlisle campus)",
+    "developer": "Amazon Web Services",
+    "tenants": [
+      "Anthropic"
+    ],
+    "city": "New Carlisle",
+    "region": "Indiana",
+    "country": "United States",
+    "lat": 41.70056,
+    "lng": -86.49639,
+    "location_precision": "city",
+    "capacity_mw": 2250,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "Indiana Michigan Power (AEP)",
+    "power_notes": "Served by Indiana Michigan Power, an AEP subsidiary; utility filings cited a 90% load factor. The utility told regulators it expected natural gas plants to provide about three-quarters of the additional power it needs by 2030.",
+    "status": "partially_operational",
+    "announced": "2024",
+    "expected_online": "2025",
+    "investment_usd_bn": 13.8,
+    "sources": [
+      {
+        "title": "Indiana data center could bring significant power use",
+        "publisher": "The Times of Northwest Indiana (via GovTech)",
+        "url": "https://www.govtech.com/artificial-intelligence/indiana-data-center-could-bring-significant-power-use",
+        "date": "2025-04-23"
+      },
+      {
+        "title": "At Amazon's biggest data centre, everything is supersized for AI",
+        "publisher": "The New York Times (via The Nightly)",
+        "url": "https://thenightly.com.au/business/the-new-york-times-at-amazons-biggest-data-centre-everything-is-supersized-for-ai-c-19309860",
+        "date": "2025-06-24"
+      },
+      {
+        "title": "AWS activates Project Rainier data center campus",
+        "publisher": "Converge Digest",
+        "url": "https://convergedigest.com/aws-activates-project-rainier-data-center-campus/",
+        "date": "2025-10-29"
+      },
+      {
+        "title": "AWS says Project Rainier AI megacluster is fully operational",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/2025/10/29/aws_rainier_ai_megacluster/",
+        "date": "2025-10-29"
+      },
+      {
+        "title": "Amazon Web Services investment in St. Joseph County data center campus surpasses $13.8 billion",
+        "publisher": "WNDU",
+        "url": "https://www.wndu.com/2026/07/23/amazon-web-services-investment-st-joseph-county-data-center-campus-surpasses-138-billion/?outputType=amp",
+        "date": "2026-07-23"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Capacity is the 2,250 MW cited in Indiana Utility Regulatory Commission filings; other reports give 2.2 GW. AWS activated Project Rainier in October 2025 with nearly 500,000 Trainium2 chips; WNDU reported about 18 of roughly 30 planned buildings operational in July 2026. Investment is the $13.8B AWS said it had invested by July 2026, above its original $11B commitment. Project Rainier also spans other, undisclosed US sites."
+  },
+  {
+    "id": "terawulf-justified-hawesville",
+    "name": "Justified Data campus",
+    "developer": "TeraWulf",
+    "tenants": [
+      "Anthropic"
+    ],
+    "city": "Hawesville",
+    "region": "Kentucky",
+    "country": "United States",
+    "lat": 37.90111,
+    "lng": -86.74944,
+    "location_precision": "city",
+    "capacity_mw": 401,
+    "capacity_basis": "it",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "TeraWulf says the site has access to up to about 480 MW of gross power capacity, an energized on-site substation and existing high-voltage transmission infrastructure.",
+    "status": "announced",
+    "announced": "2026-07",
+    "expected_online": "2027-H2 (initial); 2028 (full)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "TeraWulf press release, Form 8-K Exhibit 99.1 (Anthropic lease at Justified Data campus)",
+        "publisher": "TeraWulf (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001083301/000110465926080583/tm2619468d1_ex99-1.htm",
+        "date": "2026-07-06"
+      },
+      {
+        "title": "TeraWulf Reports Second Quarter 2026 Results",
+        "publisher": "TeraWulf (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000162/a_wulfearningsreleaseq22026.htm",
+        "date": "2026-08-05"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "20-year lease with Anthropic for about 401 MW of critical IT capacity, worth about $19 billion of contracted lease revenue over the initial term (up to about $33 billion with both extension options). Initial delivery is expected in the second half of 2027 and the full 401 MW by early 2028. The campus has more than 250 buildable acres."
+  },
+  {
+    "id": "meta-hyperion-richland-parish",
+    "name": "Hyperion",
+    "developer": "Meta (joint venture with Blue Owl Capital-managed funds)",
+    "tenants": [
+      "Meta"
+    ],
+    "city": "Holly Ridge",
+    "region": "Louisiana",
+    "country": "United States",
+    "lat": 32.46778,
+    "lng": -91.62667,
+    "location_precision": "city",
+    "capacity_mw": 5000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas",
+      "solar",
+      "battery_storage"
+    ],
+    "onsite_generation": null,
+    "utility": "Entergy Louisiana",
+    "power_notes": "Entergy Louisiana serves the campus; regulators approved three Entergy gas plants for it in 2025, and in March 2026 Entergy and Meta agreed on seven more (ten in total, about 7.5 GW), pending Louisiana PSC approval. Meta agreed to help fund up to 2.5 GW of renewable capacity including battery storage.",
+    "status": "under_construction",
+    "announced": "2024-12",
+    "expected_online": "2030 (first 2 GW, per 2025 plan); full build-out 2036",
+    "investment_usd_bn": 50,
+    "sources": [
+      {
+        "title": "Meta is investing $40B more to expand Richland Parish data center project",
+        "publisher": "WWNO (Gulf States Newsroom)",
+        "url": "https://www.wwno.org/economy/2026-07-14/meta-is-investing-40b-more-to-expand-richland-parish-data-center-project",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Meta's Hyperion data center and Entergy's 10 gas power plants in Louisiana",
+        "publisher": "Fortune",
+        "url": "https://fortune.com/2026/03/27/meta-hyperion-10-gas-power-plants-louisiana-entergy/",
+        "date": "2026-03-27"
+      },
+      {
+        "title": "Inside Prometheus: Meta's gigawatt-scale supercluster",
+        "publisher": "Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Mark Zuckerberg says Meta is building a 5GW AI data center",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center",
+        "date": "2025-07-14"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "In July 2026 Meta raised the planned capacity to 5 GW (described as compute capacity) and total investment to $50B, from more than 2 GW and $10B; officials said full build-out of both phases is not expected until 2036. Meta formed a joint venture with Blue Owl Capital-managed funds in October 2025 covering up to $27B in development costs. In October 2026 Meta described Hyperion as an upcoming supercluster; no building was reported operational."
+  },
+  {
+    "id": "hut8-river-bend",
+    "name": "River Bend AI campus",
+    "developer": "Hut 8",
+    "tenants": [
+      "Fluidstack",
+      "Anthropic"
+    ],
+    "city": "West Feliciana Parish",
+    "region": "Louisiana",
+    "country": "United States",
+    "lat": 30.87,
+    "lng": -91.42,
+    "location_precision": "county",
+    "capacity_mw": 330,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "Entergy Louisiana",
+    "power_notes": "Entergy Louisiana is providing an initial 330 MW of utility capacity to support 245 MW of critical IT load. The site has potential to scale to up to 1,000 MW of utility capacity.",
+    "status": "under_construction",
+    "announced": "2025-12",
+    "expected_online": "2027-Q2",
+    "investment_usd_bn": 10,
+    "sources": [
+      {
+        "title": "Hut 8 Announces AI Infrastructure Partnership with Anthropic and Fluidstack",
+        "publisher": "Hut 8",
+        "url": "https://canada.hut8.com/resources/press-releases/hut-8-announces-ai-infrastructure-partnership-with-anthropic-and-fluidstack",
+        "date": "2025-12-17"
+      },
+      {
+        "title": "Hut 8 Selects Southeast Louisiana as Site of $10 Billion Artificial Intelligence Data Center",
+        "publisher": "Louisiana Economic Development",
+        "url": "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center",
+        "date": "2025-12-17"
+      },
+      {
+        "title": "Hut 8 selects Entergy, Southeast Louisiana for $10 billion artificial intelligence data center",
+        "publisher": "Entergy",
+        "url": "https://www.entergy.com/news/hut-8-selects-entergy-southeast-louisiana-for-10-billion-artificial-intelligence-data-center",
+        "date": "2025-12-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Phase I is 245 MW of critical IT load leased to Fluidstack, with Google providing a financial backstop for the lease. Hut 8 says the capacity is part of a partnership to deliver 245 MW to 2,295 MW of AI data center capacity for Anthropic, with Fluidstack operating the clusters, including a right of first offer on up to 1,000 MW more IT capacity at River Bend subject to expanded power. Capacity shown is the initial 330 MW of contracted utility capacity. The investment figure is 'up to $10 billion' for Phase I."
+  },
+  {
+    "id": "google-van-buren-township",
+    "name": "Project Cannoli",
+    "developer": "Google",
+    "tenants": [
+      "Google"
+    ],
+    "city": "Van Buren Township",
+    "region": "Michigan",
+    "country": "United States",
+    "lat": 42.22056,
+    "lng": -83.4875,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "solar",
+      "battery_storage"
+    ],
+    "onsite_generation": null,
+    "utility": "DTE Energy",
+    "power_notes": "DTE Energy will serve the site under 20-year contracts conditionally approved by the Michigan Public Service Commission in October 2026; Google is paying for up to 1,600 MW of renewable energy and 480 MW of battery storage through DTE.",
+    "status": "announced",
+    "announced": "2026-03",
+    "expected_online": "2027-12",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Google revealed as company behind hyperscale data center project 'Cannoli'",
+        "publisher": "Michigan Public",
+        "url": "https://www.michiganpublic.org/transportation-infrastructure/2026-03-18/google-revealed-as-company-behind-hyperscale-data-center-project-cannoli",
+        "date": "2026-03-18"
+      },
+      {
+        "title": "Michigan regulators OK DTE contracts for Google data center",
+        "publisher": "Planet Detroit (via Michigan Public)",
+        "url": "https://www.michiganpublic.org/transportation-infrastructure/2026-10-02/google-data-center-michigan-van-buren-township",
+        "date": "2026-10-02"
+      },
+      {
+        "title": "Google wins zoning approval for huge data center near Detroit airport",
+        "publisher": "Michigan Public",
+        "url": "https://www.michiganpublic.org/politics-government/2026-10-15/google-wins-zoning-approval-for-huge-data-center-near-detroit-airport",
+        "date": "2026-10-15"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located in Wayne County. The township planning commission approved the final site plan in October 2026; construction had not started as of that report. Service is expected to begin in December 2027, with maximum load by December 2028. DTE's March 2026 filing cited up to 450 MW of storage; the October 2026 approval report cites 480 MW. Panattoni is managing construction; Google will own and operate the site."
+  },
+  {
+    "id": "stargate-saline-township",
+    "name": "The Barn (Stargate Michigan)",
+    "developer": "Related Digital",
+    "tenants": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "city": "Saline Township",
+    "region": "Michigan",
+    "country": "United States",
+    "lat": 42.11667,
+    "lng": -83.81667,
+    "location_precision": "city",
+    "capacity_mw": 1400,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid",
+      "battery_storage"
+    ],
+    "onsite_generation": false,
+    "utility": "DTE Energy",
+    "power_notes": "DTE Energy supplies 100% of the power from existing resources, supplemented by new battery storage financed by the project. The Michigan Public Service Commission conditionally approved DTE's 19-year supply contracts on 18 December 2025.",
+    "status": "under_construction",
+    "announced": "2025-10",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "OpenAI, Oracle and Related Digital announce Stargate data center site in Michigan",
+        "publisher": "Related Companies",
+        "url": "https://www.related.com/press-releases/2025-10-30/openai-oracle-and-related-digital-announce-stargate-data-center-site",
+        "date": "2025-10-30"
+      },
+      {
+        "title": "DTE gets approval for data center in Saline Township",
+        "publisher": "FOX 2 Detroit",
+        "url": "https://fox2detroit.com/news/dte-gets-approval-data-center-saline-township",
+        "date": "2025-12-18"
+      },
+      {
+        "title": "OpenAI Stargate: where the US sites stand",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Three single-story buildings of 550,000 sq ft each on 250 acres. Related Digital describes more than a gigawatt of capacity; the DTE supply contracts cover 1.4 GW (reported by FOX 2 as 1.383 GW), which is the figure used here. Epoch AI reported foundation work underway on the first building in April 2026."
+  },
+  {
+    "id": "xai-macrohardrr-southaven",
+    "name": "MACROHARDRR",
+    "developer": "xAI",
+    "tenants": [
+      "xAI"
+    ],
+    "city": "Southaven",
+    "region": "Mississippi",
+    "country": "United States",
+    "lat": 34.951,
+    "lng": -89.9777,
+    "location_precision": "city",
+    "capacity_mw": null,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Reuters reported the site is near a natural gas power plant xAI is building in the area; the facility's own power arrangement has not been published.",
+    "status": "under_construction",
+    "announced": "2025-12",
+    "expected_online": "2026-02",
+    "investment_usd_bn": 20,
+    "sources": [
+      {
+        "title": "Gov. Reeves announces largest corporate investment in Mississippi history",
+        "publisher": "WLOX",
+        "url": "https://www.wlox.com/2026/01/08/gov-reeves-announces-largest-corporate-investment-mississippi-history",
+        "date": "2026-01-08"
+      },
+      {
+        "title": "Musk's xAI to invest over $20 billion in Mississippi data center",
+        "publisher": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/musks-xai-invest-over-20-054524916.html",
+        "date": "2026-01-09"
+      },
+      {
+        "title": "Musk's xAI buys third building to expand AI compute power",
+        "publisher": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/musks-xai-buys-third-building-221629820.html",
+        "date": "2025-12-31"
+      },
+      {
+        "title": "Elon Musk's xAI activates world's first gigawatt-scale AI training cluster",
+        "publisher": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/elon-musk-xai-gigawatt-scale-ai-training-cluster",
+        "date": "2026-01-19"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "A warehouse that xAI is converting into a data center, its third building near Memphis. Musk said it would bring xAI's training compute to nearly 2 GW, but no capacity has been published for this site alone. Mississippi's governor said the investment will exceed $20 billion. xAI expected to begin operations in February 2026; no opened source confirmed when operations began."
+  },
+  {
+    "id": "nebius-vineland",
+    "name": "Vineland AI data center",
+    "developer": "DataOne",
+    "tenants": [
+      "Nebius",
+      "Microsoft"
+    ],
+    "city": "Vineland",
+    "region": "New Jersey",
+    "country": "United States",
+    "lat": 39.49,
+    "lng": -75.03,
+    "location_precision": "city",
+    "capacity_mw": 300,
+    "capacity_basis": "it",
+    "power_sources": [
+      "fuel_cell",
+      "grid"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Nebius plans behind-the-meter Bloom Energy fuel cells (first project 328 MW installed, about 250 MW guaranteed) in place of previously planned gas reciprocating engines; the fuel cells are expected to operate in 2026. Cleanview reports a small grid supply and an air permit pending with NJ DEP.",
+    "status": "partially_operational",
+    "announced": "2025-03",
+    "expected_online": "2026 (on-site fuel-cell power)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Nebius announces multi-billion dollar agreement with Microsoft for AI infrastructure",
+        "publisher": "Nebius",
+        "url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+        "date": "2025-09-08"
+      },
+      {
+        "title": "Nebius and Bloom Energy partner to power AI infrastructure build-out",
+        "publisher": "Nebius",
+        "url": "https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out",
+        "date": "2026-05-20"
+      },
+      {
+        "title": "Bloom Energy Jumps 13% as Nebius Picks Its Fuel Cells for AI Data Center, FuelCell Climbs 11%",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/08/12/bloom-energy-jumps-13-as-nebius-picks-its-fuel-cells-for-ai-data-center-fuelcell-climbs-11/",
+        "date": "2026-08-12"
+      },
+      {
+        "title": "Behind-the-meter data centers: Nebius Vineland",
+        "publisher": "Cleanview",
+        "url": "https://cleanview.co/reports/behind-the-meter-data-centers/full-report/nebius-vineland",
+        "date": "2026-05"
+      },
+      {
+        "title": "Microsoft-Nebius New Jersey",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/data/ai-data-centers/directory/microsoft-nebius-new-jersey",
+        "date": "2026-08"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Built and operated by DataOne with Nebius as tenant; Microsoft is the end customer under Nebius's five-year GPU services agreement (about $17.4 billion, September 2025). capacity_mw is the stated 'up to 300 MW' of IT capacity on a 2.4 million sq ft site. Status sources differ: Epoch AI estimates about 50 MW of IT operating since early 2026 and Cleanview reports the Phase 1 building complete, while a March 2026 thermal analysis reported by the Financial Times (via Cleanview) showed no heat signature. The Nebius-Bloom release does not name the site; Cleanview and 24/7 Wall St. tie it to Vineland."
+  },
+  {
+    "id": "project-jupiter-dona-ana",
+    "name": "Project Jupiter (Stargate New Mexico)",
+    "developer": "BorderPlex Digital Assets and STACK Infrastructure",
+    "tenants": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "city": "Santa Teresa",
+    "region": "New Mexico",
+    "country": "United States",
+    "lat": 31.87111,
+    "lng": -106.67333,
+    "location_precision": "city",
+    "capacity_mw": null,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "fuel_cell"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Designed to run on a behind-the-meter Bloom Energy fuel-cell microgrid fueled by natural gas, with up to 2.45 GW of installed fuel-cell capacity, replacing an earlier gas-turbine plan. Oracle says an El Paso Electric easement would cover only backup and construction power. As of October 2026 the microgrid's state air permit (decision due by 23 November 2026) and federal approval of the Green Chile gas pipeline were pending.",
+    "status": "under_construction",
+    "announced": "2025-02",
+    "expected_online": "2028",
+    "investment_usd_bn": 165,
+    "sources": [
+      {
+        "title": "$165bn Project Jupiter: What Oracle's force majeure notice means for AI data centre risk",
+        "publisher": "Capacity",
+        "url": "https://capacityglobal.com/news/165bn-project-jupiter-what-oracles-force-majeure-notice-means-for-ai-data-centre-risk/",
+        "date": "2026-10-02"
+      },
+      {
+        "title": "Timeline: The evolution of Project Jupiter",
+        "publisher": "Searchlight New Mexico",
+        "url": "https://searchlightnm.org/timeline-the-evolution-of-project-jupiter/",
+        "date": "2026-09-18"
+      },
+      {
+        "title": "Oracle updates Doña Ana County on Project Jupiter data center",
+        "publisher": "Albuquerque Journal",
+        "url": "https://www.abqjournal.com/news/oracle-provides-upbeat-report-on-project-jupiter/3117641",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Oracle Drops Gas-Turbine Plan for Its Massive Project Jupiter, Turns to Bloom Fuel Cells",
+        "publisher": "ConstructConnect",
+        "url": "https://news.constructconnect.com/oracle-drops-gas-turbine-plan-for-its-massive-project-jupiter-turns-to-bloom-fuel-cells",
+        "date": "2026-05-11"
+      },
+      {
+        "title": "Doña Ana County's Project Jupiter joins $500 billion Stargate initiative led by OpenAI, Oracle",
+        "publisher": "Albuquerque Journal",
+        "url": "https://www.abqjournal.com/business/doa-na-countys-project-jupiter-joins-500-billion-stargate-initiative-led-by-openai-oracle/493927",
+        "date": "2025-09-23"
+      },
+      {
+        "title": "Project Jupiter: where the AI data center project stands in NM",
+        "publisher": "The Daily Lobo",
+        "url": "https://www.dailylobo.com/article/2026/08/project-jupiter-where-the-ai-data-center-project-stands-in-nm",
+        "date": "2026-08-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Four data center buildings on about 1,400 acres in Doña Ana County; Oracle leases the campus for 18 years with OpenAI as the primary client. Oracle said in September 2026 that the data center was 26% complete. No campus power capacity has been published; 2.45 GW is installed fuel-cell generating capacity, not data center load. The $165 billion figure is the maximum industrial revenue bond amount approved by the county. In September 2026 Oracle sent a force majeure notice preserving its right to defer rent if power is not ready for the scheduled 2028 start; Oracle said the project remains on schedule."
+  },
+  {
+    "id": "terawulf-lake-mariner",
+    "name": "Lake Mariner Data Campus",
+    "developer": "TeraWulf",
+    "tenants": [
+      "Fluidstack",
+      "Core42"
+    ],
+    "city": "Barker",
+    "region": "New York",
+    "country": "United States",
+    "lat": 43.33,
+    "lng": -78.55,
+    "location_precision": "city",
+    "capacity_mw": 750,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "NYISO (grid operator)",
+    "power_notes": "TeraWulf describes predominantly zero-carbon grid power bought through the NYISO market using existing transmission infrastructure. It is pursuing 250 MW of additional power capacity subject to interconnection approval.",
+    "status": "partially_operational",
+    "announced": null,
+    "expected_online": "CB-4 2026-H2; CB-5 from early 2027",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "TeraWulf Reports Second Quarter 2026 Results",
+        "publisher": "TeraWulf",
+        "url": "https://investors.terawulf.com/news-events/press-releases/detail/144",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "TeraWulf Inc. Form 10-Q for the quarter ended June 30, 2026",
+        "publisher": "TeraWulf (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001083301/000108330126000166/wulf-20260630.htm",
+        "date": "2026-08"
+      },
+      {
+        "title": "Our Sites",
+        "publisher": "TeraWulf",
+        "url": "https://www.terawulf.com/our-sites",
+        "date": "2026-10-26"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Bitcoin mining site being repurposed for AI/HPC; 145 MW of bitcoin mining capacity still operated at 2026-06-30. capacity_mw is the up-to-750 MW of power and infrastructure access in the site leases (10-Q); TeraWulf's site page lists 600 MW of critical IT capacity (438 MW contracted). As of 2026-08-05, 102 MW of critical IT was revenue-generating and 336 MW (CB-4, CB-5) was under construction. Google provides credit support for part of Fluidstack's lease obligations. The 'Our Sites' page is undated; its date is the access date."
+  },
+  {
+    "id": "applied-digital-polaris-forge-1",
+    "name": "Polaris Forge 1",
+    "developer": "Applied Digital",
+    "tenants": [
+      "CoreWeave"
+    ],
+    "city": "Ellendale",
+    "region": "North Dakota",
+    "country": "United States",
+    "lat": 46,
+    "lng": -98.53,
+    "location_precision": "city",
+    "capacity_mw": 400,
+    "capacity_basis": "it",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "Montana-Dakota Utilities",
+    "power_notes": "Montana-Dakota Utilities serves Applied Digital's Polaris Forge 1 campus near Ellendale.",
+    "status": "partially_operational",
+    "announced": null,
+    "expected_online": "2027 (third 150 MW building)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Applied Digital Reports Fiscal First Quarter 2027 Results",
+        "publisher": "Applied Digital (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm",
+        "date": "2026-10-07"
+      },
+      {
+        "title": "Applied Digital Brings an Additional 75 MW of AI Infrastructure Online at Polaris Forge 1",
+        "publisher": "Applied Digital (GlobeNewswire via Finviz)",
+        "url": "https://finviz.com/news/398236/applied-digital-brings-an-additional-75-mw-of-ai-infrastructure-online-at-polaris-forge-1",
+        "date": "2026-10-02"
+      },
+      {
+        "title": "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
+        "publisher": "Montana-Dakota Utilities (PR Newswire via Finviz)",
+        "url": "https://finviz.com/news/363163/montana-dakota-utilities-announces-electric-service-agreement-with-applied-digital-for-proposed-ai-factory",
+        "date": "2026-06-22"
+      },
+      {
+        "title": "Applied Digital Reports Fiscal Second Quarter 2026 Results",
+        "publisher": "Applied Digital",
+        "url": "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000002/apldq226earningsrelease.htm",
+        "date": "2026-01-07"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Fully leased to CoreWeave for 400 MW of critical IT (about $11 billion of prospective lease revenue per the January 2026 release). 250 MW of critical IT was live as of 2026-10-01 (Building 1: 100 MW; Building 2: 150 MW delivered in two 75 MW phases); the third 150 MW building is under construction. Applied Digital separately operates a 180 MW legacy hosting facility in Ellendale."
+  },
+  {
+    "id": "applied-digital-polaris-forge-2",
+    "name": "Polaris Forge 2",
+    "developer": "Applied Digital",
+    "tenants": [],
+    "city": "Harwood",
+    "region": "North Dakota",
+    "country": "United States",
+    "lat": 46.98,
+    "lng": -96.88,
+    "location_precision": "city",
+    "capacity_mw": 200,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "under_construction",
+    "announced": "2025-08",
+    "expected_online": "2026 (initial); full capacity early 2027",
+    "investment_usd_bn": 3,
+    "sources": [
+      {
+        "title": "Applied Digital Reports Fiscal Second Quarter 2026 Results",
+        "publisher": "Applied Digital",
+        "url": "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000002/apldq226earningsrelease.htm",
+        "date": "2026-01-07"
+      },
+      {
+        "title": "Applied Digital Reports Fiscal First Quarter 2027 Results",
+        "publisher": "Applied Digital (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm",
+        "date": "2026-10-07"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Applied Digital describes a 200 MW, $3 billion campus near Harwood, leased for about 15 years (signed 2025-10-22, about $5 billion of prospective revenue) to an unnamed U.S. investment-grade hyperscaler. Groundbreaking was 2025-08-18. The October 2026 release says the campus is in various stages of construction and that its initial operations are expected to bring Applied Digital's delivered critical IT in North Dakota to 300 MW by end of 2026."
+  },
+  {
+    "id": "ports-pike-openai",
+    "name": "PORTS-Pike Technology Campus",
+    "developer": "SB Energy (SoftBank Group)",
+    "tenants": [
+      "OpenAI"
+    ],
+    "city": "Piketon",
+    "region": "Ohio",
+    "country": "United States",
+    "lat": 39.06806,
+    "lng": -83.01444,
+    "location_precision": "city",
+    "capacity_mw": 10000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas"
+    ],
+    "onsite_generation": null,
+    "utility": "AEP Ohio",
+    "power_notes": "The first phase will be powered primarily by the existing grid, and SB Energy is funding new 765 kV transmission lines through AEP Ohio. Later phases rely on 9.2 GW of new natural gas generation that the developer says will be owned by the U.S. government.",
+    "status": "announced",
+    "announced": "2026-03",
+    "expected_online": "2028 (first 800 MW)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "OpenAI announces plans to lease much of a proposed data center campus in Pike County",
+        "publisher": "WOUB Public Media",
+        "url": "https://woub.org/2026/08/18/openai-announces-plans-to-lease-much-of-a-proposed-data-center-campus-in-pike-county/",
+        "date": "2026-08-18"
+      },
+      {
+        "title": "PORTS-Pike Technology Campus",
+        "publisher": "PORTS-Pike Technology Campus (developer website)",
+        "url": "https://portscampus.com/",
+        "date": "2026"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Planned 10 GW campus on the former Portsmouth Gaseous Diffusion Plant site and nearby private land just south of Piketon in Pike County. OpenAI signed a 20-year lease for about 8 GW as the campus is built out; NVIDIA provides credit support and is the exclusive compute infrastructure provider. A groundbreaking ceremony was held in March 2026, and the developer's Ohio EPA application lists a construction start in October 2026; buildout runs through 2032."
+  },
+  {
+    "id": "meta-prometheus-new-albany",
+    "name": "Prometheus",
+    "developer": "Meta",
+    "tenants": [
+      "Meta"
+    ],
+    "city": "New Albany",
+    "region": "Ohio",
+    "country": "United States",
+    "lat": 40.08278,
+    "lng": -82.80889,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas",
+      "nuclear",
+      "battery_storage"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "A Williams subsidiary (Will-Power OH) is building two 200 MW behind-the-meter gas plants (Socrates) for Meta's New Albany campus that are not physically connected to the grid. AP reported Meta's January 2026 nuclear agreements with Vistra, Oklo and TerraPower as supplying Prometheus; Meta also cites facility-level battery storage.",
+    "status": "partially_operational",
+    "announced": "2025-07",
+    "expected_online": "2026",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Inside Prometheus: Meta's gigawatt-scale supercluster",
+        "publisher": "Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Mark Zuckerberg says Meta is building a 5GW AI data center",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center",
+        "date": "2025-07-14"
+      },
+      {
+        "title": "Onsite gas turbines, reciprocating engines to power Meta data center",
+        "publisher": "Power Engineering",
+        "url": "https://www.power-eng.com/onsite-power/onsite-gas-turbines-reciprocating-engines-to-power-meta-data-center/",
+        "date": "2025-06-11"
+      },
+      {
+        "title": "Meta signs three nuclear power deals to help support its AI data centers",
+        "publisher": "Associated Press (via NY1)",
+        "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/01/09/meta-signs-three-nuclear-power-deals-to-help-support-its-ai-data-centers",
+        "date": "2026-01-09"
+      },
+      {
+        "title": "Meta's gigawatt data center in New Albany",
+        "publisher": "Spectrum News 1",
+        "url": "https://spectrumnews1.com/oh/columbus/news/2025/11/13/meta-gigawatt-data-center-new-albany-",
+        "date": "2025-11-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Meta said on 2026-10-19 that the first phase is complete and that it is scaling the cluster toward about 1 million GPUs; Meta has not published a current operating power figure. The 1 GW figure is Meta's stated cluster size. The Socrates gas plants targeted completion in November 2026."
+  },
+  {
+    "id": "stargate-lordstown",
+    "name": "Stargate Lordstown",
+    "developer": "SoftBank Group",
+    "tenants": [
+      "OpenAI"
+    ],
+    "city": "Lordstown",
+    "region": "Ohio",
+    "country": "United States",
+    "lat": 41.16861,
+    "lng": -80.87444,
+    "location_precision": "city",
+    "capacity_mw": null,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Epoch AI reports the site uses grid power via the existing Foxconn substation.",
+    "status": "under_construction",
+    "announced": "2025-09",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Lordstown data center to be operational next year",
+        "publisher": "Business Journal Daily",
+        "url": "https://businessjournaldaily.com/lordstown-data-center-to-be-operational-next-year/",
+        "date": "2025-09-24"
+      },
+      {
+        "title": "OpenAI Stargate Lordstown (satellite explorer)",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/data/data-centers/satellite-explorer/OpenAIStargateLordstown",
+        "date": "2026-08-25"
+      },
+      {
+        "title": "OpenAI Stargate: where the US sites stand",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04-17"
+      },
+      {
+        "title": "Foxconn reveals plans for Lordstown plant",
+        "publisher": "WKBN via Yahoo News",
+        "url": "https://www.yahoo.com/news/articles/foxconn-reveals-plans-lordstown-plant-123431236.html",
+        "date": "2025-08-18"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Former Foxconn (earlier General Motors) plant bought by SoftBank for $375 million in 2025; Epoch AI describes the site as primarily a factory for AI servers and data center equipment run with Foxconn. No capacity has been published for Lordstown alone: OpenAI said Lordstown and Milam County together could scale to 1.5 GW within 18 months, and Epoch AI projects about 214 MW of IT power. SoftBank said in September 2025 the site would be operational in 2026; Epoch AI reported active construction with roofing mostly in place but no buildings operational as of July 2026."
+  },
+  {
+    "id": "aws-susquehanna-salem-township",
+    "name": "AWS Susquehanna campus (former Cumulus campus)",
+    "developer": "Amazon Web Services",
+    "tenants": [
+      "Amazon Web Services"
+    ],
+    "city": "Salem Township",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "lat": 41.13333,
+    "lng": -76.16639,
+    "location_precision": "city",
+    "capacity_mw": 960,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "nuclear",
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "PPL Electric Utilities",
+    "power_notes": "The campus is next to Talen Energy's Susquehanna nuclear plant. Talen agreed in June 2025 to supply 1,920 MW to Amazon through 2042, ramping to full volume by 2032; the existing 300 MW co-located arrangement was to move to a front-of-the-meter arrangement, with PPL Electric Utilities handling delivery, after transmission work expected in spring 2026.",
+    "status": "partially_operational",
+    "announced": "2024-03",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Amazon Web Services to open data centers in Luzerne, Bucks counties",
+        "publisher": "WVIA",
+        "url": "https://www.wvia.org/news/local/2025-06-09/amazon-web-services-to-open-data-centers-in-luzerne-bucks-counties",
+        "date": "2025-06-09"
+      },
+      {
+        "title": "New supply agreement expands Talen-Amazon partnership",
+        "publisher": "World Nuclear News",
+        "url": "https://world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "date": "2025-06-12"
+      },
+      {
+        "title": "Talen and AWS expand Susquehanna nuclear power agreement",
+        "publisher": "Utility Dive",
+        "url": "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-center-t/750440/",
+        "date": "2025-06-11"
+      },
+      {
+        "title": "Amazon gets zoning approval for massive data center campus in Luzerne County",
+        "publisher": "PhillyVoice",
+        "url": "https://phillyvoice.com/amazon-pennsylvania-data-center-salem-luzerne-county",
+        "date": "2024-05-30"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located in Luzerne County. Amazon bought the 960 MW Cumulus campus, including an existing data center, from Talen in March 2024 for $650M; Salem Township rezoned about 1,600 acres for up to 15 more data center buildings over a decade. Amazon's 'at least $20B' Pennsylvania commitment covers this and other sites. No 2026 report was found confirming how many buildings operate or whether the front-of-the-meter transition is complete."
+  },
+  {
+    "id": "coreweave-lancaster",
+    "name": "CoreWeave Lancaster data center",
+    "developer": "Chirisa Technology Parks and Machine Investment Group",
+    "tenants": [
+      "CoreWeave"
+    ],
+    "city": "Lancaster",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "lat": 40.04,
+    "lng": -76.31,
+    "location_precision": "city",
+    "capacity_mw": 300,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "under_construction",
+    "announced": "2025-07",
+    "expected_online": "2027 (Epoch AI estimate)",
+    "investment_usd_bn": 6,
+    "sources": [
+      {
+        "title": "CoreWeave announces $6B commitment to AI infrastructure in Pennsylvania",
+        "publisher": "ROI-NJ",
+        "url": "https://www.roi-nj.com/2025/07/16/tech/coreweave-announces-6b-commitment-to-ai-infrastructure-in-pennsylvania/",
+        "date": "2025-07-16"
+      },
+      {
+        "title": "CoreWeave Lancaster Greenfield site",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/data/ai-data-centers/directory/coreweave-lancaster-greenfield-site",
+        "date": "2026-09-23"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Initial 100 MW facility with potential to expand to 300 MW; capacity_mw uses the upper figure. CoreWeave announced a commitment of more than $6 billion. Epoch AI's satellite-based tracker (updated 2026-09-23) lists the site as under construction and estimates about 92 MW of IT power by Q2 2027."
+  },
+  {
+    "id": "aligned-project-phoenix-shippingport",
+    "name": "Project Phoenix",
+    "developer": "Aligned Data Centers",
+    "tenants": [],
+    "city": "Shippingport",
+    "region": "Pennsylvania",
+    "country": "United States",
+    "lat": 40.63,
+    "lng": -80.42,
+    "location_precision": "city",
+    "capacity_mw": 2000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "fuel_cell"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Aligned says the campus will use its own dedicated on-site power rather than the local grid, using natural-gas-fed fuel cells; National Fuel's Shippingport Lateral is to supply about 205,000 Dth/day of firm gas capacity. The adjacent former Bruce Mansfield plant is being converted by Frontier Group into the gas-fired Shippingport Power Station (about 2,550 MW), targeting late 2028 or early 2029.",
+    "status": "under_construction",
+    "announced": null,
+    "expected_online": null,
+    "investment_usd_bn": 10,
+    "sources": [
+      {
+        "title": "From Coal to Compute: How Pennsylvania Is Rebuilding Power for AI Data Centers",
+        "publisher": "Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/energy/article/55404954/from-coal-to-compute-how-pennsylvania-is-rebuilding-power-for-ai-data-centers",
+        "date": "2026-09-30"
+      },
+      {
+        "title": "Aligned begins construction on gigawatt-scale data center campus in Pennsylvania",
+        "publisher": "Baxtel",
+        "url": "https://baxtel.com/news/aligned-begins-construction-on-gigawatt-scale-data-center-campus-in-pennsylvania",
+        "date": "2026-09-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Three-facility campus in the Shippingport Industrial Park on the former Bruce Mansfield coal plant site in Beaver County. Aligned has not said whether 2 GW refers to critical IT load. Shippingport Borough granted conditional-use approval on 2026-03-31, Aligned acquired about 650.9 acres for about $223 million in July 2026, and it broke ground on 2026-09-10. Investment is the roughly $10 billion reported by Data Center Frontier. No tenant named."
+  },
+  {
+    "id": "xai-colossus-1-memphis",
+    "name": "Colossus 1",
+    "developer": "xAI",
+    "tenants": [
+      "xAI"
+    ],
+    "city": "Memphis",
+    "region": "Tennessee",
+    "country": "United States",
+    "lat": 35.14611,
+    "lng": -90.05194,
+    "location_precision": "city",
+    "capacity_mw": null,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas",
+      "battery_storage"
+    ],
+    "onsite_generation": true,
+    "utility": "Memphis Light, Gas and Water (MLGW); Tennessee Valley Authority",
+    "power_notes": "An MLGW substation supplies 150 MW of grid power, and in February 2026 the TVA board approved an additional 150 MW of firm power for xAI's Memphis-area operations. The Shelby County Health Department permitted 15 natural gas turbines of up to 247 MW in July 2025, and the site also has about 150 MW of Tesla batteries.",
+    "status": "operational",
+    "announced": "2024",
+    "expected_online": "2024",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "TVA votes to double the power it provides Elon Musk's xAI in Memphis",
+        "publisher": "Knoxville News Sentinel via Yahoo News",
+        "url": "https://www.yahoo.com/news/articles/tva-votes-double-power-provides-145613139.html",
+        "date": "2026-02-12"
+      },
+      {
+        "title": "Elon Musk's xAI to pull about half of its smog-belching turbines powering Colossus",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/2025/05/08/xai_turbines_colossus/",
+        "date": "2025-05-08"
+      },
+      {
+        "title": "xAI gets permits for 15 natural gas generators at Memphis data center",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2025/07/03/xai-gets-permits-for-15-natural-gas-generators-at-memphis-data-center",
+        "date": "2025-07-03"
+      },
+      {
+        "title": "xAI Colossus Memphis power TVA",
+        "publisher": "SDxCentral",
+        "url": "https://www.sdxcentral.com/news/xai-colossus-memphis-power-tva/",
+        "date": "2024-11-08"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located in a former Electrolux factory on Paul R. Lowry Road in southwest Memphis; launched in 2024. No total planned capacity has been published, so capacity is left blank; grid and generation figures are in power_notes. Environmental groups have challenged the turbine operations and the air permit."
+  },
+  {
+    "id": "xai-colossus-2-memphis",
+    "name": "Colossus 2",
+    "developer": "xAI",
+    "tenants": [
+      "xAI"
+    ],
+    "city": "Memphis",
+    "region": "Tennessee",
+    "country": "United States",
+    "lat": 35.14611,
+    "lng": -90.05194,
+    "location_precision": "city",
+    "capacity_mw": 1500,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "battery_storage"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Powered mainly by xAI's gas turbine plant across the state line in Southaven, Mississippi, where regulators approved 41 permanent turbines (about 1.2 GW) in March 2026 to replace temporary units due to be removed by July 2027. About 720 Tesla Megapacks are installed behind the meter. MLGW supplies utilities to the facility, and the TVA board approved a direct grid hookup on 20 August 2026.",
+    "status": "partially_operational",
+    "announced": "2025",
+    "expected_online": "2026-01 (first phase)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Elon Musk's xAI activates world's first gigawatt-scale AI training cluster",
+        "publisher": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/elon-musk-xai-gigawatt-scale-ai-training-cluster",
+        "date": "2026-01-19"
+      },
+      {
+        "title": "xAI has quietly built a massive battery at its Memphis data center hub",
+        "publisher": "Canary Media",
+        "url": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center",
+        "date": "2026-09-11"
+      },
+      {
+        "title": "Mississippi Permit Board Grants xAI's Request for 41 Southaven Gas Turbines to Power Grok",
+        "publisher": "Mississippi Free Press",
+        "url": "https://www.mississippifreepress.org/mississippi-permit-board-grants-xais-request-for-41-southaven-gas-turbines-to-power-memphis-data-center/",
+        "date": "2026-03-10"
+      },
+      {
+        "title": "xAI announces fourth data center; turbines to be removed from Southaven site",
+        "publisher": "Action News 5",
+        "url": "https://www.actionnews5.com/2026/07/31/xai-announces-fourth-data-center-turbines-be-removed-southaven-site/",
+        "date": "2026-07-31"
+      },
+      {
+        "title": "Elon Musk's xAI to pull about half of its smog-belching turbines powering Colossus",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/2025/05/08/xai_turbines_colossus/",
+        "date": "2025-05-08"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located on Tulane Road in the Whitehaven area of Memphis. Musk said on 17 January 2026 that Colossus 2 was operational as a gigawatt-scale training cluster and would be upgraded to 1.5 GW in April 2026; 1,500 MW is that planned figure, and no opened source confirmed the upgrade or the actual load. In July 2026 Musk announced a fourth building, 'Minihard', next to Colossus 2 on Tulane Road, which is not included here."
+  },
+  {
+    "id": "cipher-barber-lake",
+    "name": "Barber Lake",
+    "developer": "Cipher Mining (Cipher Digital)",
+    "tenants": [
+      "Fluidstack"
+    ],
+    "city": "Colorado City",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 32.39,
+    "lng": -100.86,
+    "location_precision": "city",
+    "capacity_mw": 300,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "under_construction",
+    "announced": "2025-09",
+    "expected_online": "2026-Q4 to 2027-Q1 (phased data halls)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Cipher Mining press release on Fluidstack AI hosting agreement at Barber Lake (Form 8-K Exhibit 99.1)",
+        "publisher": "Cipher Mining (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010325012168/dp234624_ex9901.htm",
+        "date": "2025-09-25"
+      },
+      {
+        "title": "Cipher Mining lands full-site Fluidstack lease, moves to raise $333 million for Texas expansion",
+        "publisher": "The Block",
+        "url": "https://www.theblock.co/post/379722/cipher-mining-full-site-fluidstack-lease-raise-333-million-texas-expansion",
+        "date": "2025-11-20"
+      },
+      {
+        "title": "Cipher Digital extends Barber Lake lease to 20 years, revenue tops $9 billion",
+        "publisher": "Baxtel",
+        "url": "https://baxtel.com/news/cipher-digital-extends-barber-lake-lease-to-20-years-revenue-tops-9-billion",
+        "date": "2026-10-10"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "On former bitcoin mining land (587 acres). The initial Fluidstack lease covers 168 MW of critical IT on up to 244 MW of gross capacity; a November 2025 expansion added 39 MW and placed the full 300 MW campus under lease. Cipher cited potential for a 500 MW expansion. Google backstops part of Fluidstack's obligations. Delivery originally targeted September 2026 was revised to data halls arriving Q4 2026 through Q1 2027; a September 2026 amendment added a 10-year follow-on commitment from an unnamed AI lab (20-year contracted life)."
+  },
+  {
+    "id": "iren-childress",
+    "name": "Childress campus (Horizon 1-4)",
+    "developer": "IREN",
+    "tenants": [
+      "Microsoft",
+      "NVIDIA"
+    ],
+    "city": "Childress",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 34.43,
+    "lng": -100.2,
+    "location_precision": "city",
+    "capacity_mw": 750,
+    "capacity_basis": "unspecified",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "partially_operational",
+    "announced": null,
+    "expected_online": "Horizons 3-4 targeting 2026-Q4",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "IREN press release on Horizon 1 delivery to Microsoft (Form 8-K Exhibit 99.1)",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126032638/ef20080141_ex99-1.htm",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "IREN Reports FY26 Results",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm",
+        "date": "2026-08-27"
+      },
+      {
+        "title": "IREN Reports Q3 FY26 Results",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000025/irenreportsq3fy26results.htm",
+        "date": "2026-05-07"
+      },
+      {
+        "title": "IREN Q2 FY25 Results Presentation",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000009/q2fy25resultspresentatio.htm",
+        "date": "2025-02-12"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "capacity_mw is the overall Childress site figure (750 MW) from IREN's February 2025 presentation. Microsoft's five-year, $9.7 billion contract covers four 50 MW (IT) liquid-cooled Horizon deployments (about 200 MW IT): Horizon 1 was delivered and accepted in August 2026, Horizon 2 is commissioning and Horizons 3-4 target Q4 2026. A separate five-year, $3.4 billion NVIDIA AI cloud contract deploys within 60 MW of existing Childress data centers, ramping from early 2027."
+  },
+  {
+    "id": "stargate-shackelford-frontier",
+    "name": "Frontier (Stargate Shackelford County)",
+    "developer": "Vantage Data Centers",
+    "tenants": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "city": "Shackelford County",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 32.73,
+    "lng": -99.35,
+    "location_precision": "county",
+    "capacity_mw": 1400,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Epoch AI reports the campus will be powered by an on-site natural gas microgrid. Bloomberg reported in August 2025 that Oracle planned to run the site on gas generators rather than wait for a utility connection.",
+    "status": "under_construction",
+    "announced": "2025-08",
+    "expected_online": "2026-H2 (first building); 2028 (full campus)",
+    "investment_usd_bn": 25,
+    "sources": [
+      {
+        "title": "Vantage Data Centers Unveils Plans for \"Frontier,\" a $25B Mega-campus in Texas to Meet Unprecedented AI Demand",
+        "publisher": "Vantage Data Centers",
+        "url": "https://vantage-dc.com/news/vantage-data-centers-unveils-plans-for-frontier-a-25b-mega-campus-in-texas-to-meet-unprecedented-ai-demand/",
+        "date": "2025-08-19"
+      },
+      {
+        "title": "Vantage Data Centers breaks ground on data center campus in Texas",
+        "publisher": "W.Media",
+        "url": "https://w.media/vantage-data-centers-breaks-ground-on-data-center-campus-in-texas/",
+        "date": "2025-12-16"
+      },
+      {
+        "title": "OpenAI Stargate: where the US sites stand",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04-17"
+      },
+      {
+        "title": "Oracle to back gas-powered data center",
+        "publisher": "Interesting Engineering",
+        "url": "https://interestingengineering.com/culture/oracle-to-back-gas-powered-data-center",
+        "date": "2025-08-21"
+      },
+      {
+        "title": "Shackelford County selected for new Stargate AI data center, possible expansion for Abilene",
+        "publisher": "KTAB/KRBC (BigCountryHomepage.com)",
+        "url": "https://www.bigcountryhomepage.com/news/abilene-news/shackelford-county-selected-for-new-stargate-ai-data-center-possible-expansion-for-abilene/amp",
+        "date": "2025-09"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Ten single-story buildings on about 1,200 acres. Vantage describes 1.4 GW of GPU compute capacity without saying whether it is IT or total power; Epoch AI treats it as IT power and estimates about 2 GW of total facility power. Vantage broke ground in December 2025, and the site was named as a Stargate location in September 2025. Epoch AI reported roofing underway on the first building in April 2026."
+  },
+  {
+    "id": "galaxy-helios",
+    "name": "Helios data center campus",
+    "developer": "Galaxy Digital",
+    "tenants": [
+      "CoreWeave"
+    ],
+    "city": null,
+    "region": "Texas",
+    "country": "United States",
+    "lat": 33.62,
+    "lng": -100.78,
+    "location_precision": "county",
+    "capacity_mw": 1630,
+    "capacity_basis": "facility",
+    "power_sources": [],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": null,
+    "status": "partially_operational",
+    "announced": null,
+    "expected_online": "Phase I online 2026; Phase II from 2027-H1",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Galaxy Completes Phase I of Its Helios Data Center Campus, Delivering 133 Megawatts of Critical IT Load to CoreWeave",
+        "publisher": "Galaxy",
+        "url": "https://www.galaxy.com/newsroom/galaxy-completes-phase-i-of-its-helios-data-center-campus",
+        "date": "2026-07-06"
+      },
+      {
+        "title": "Galaxy delivers 133 MW of critical IT load to CoreWeave as Helios bitcoin mine turns AI hub",
+        "publisher": "The Block",
+        "url": "https://www.theblock.co/post/407396/galaxy-delivers-133-mw-of-critical-it-load-to-coreweave-as-helios-bitcoin-mine-turns-ai-hub",
+        "date": "2026-07-07"
+      },
+      {
+        "title": "Galaxy Digital Unit Plans $3.51 Billion Debt Offering for Coreweave AI Data Center",
+        "publisher": "Dow Jones Newswires (via Tiger Brokers)",
+        "url": "https://www.itiger.com/news/2653761665",
+        "date": "2026-07-22"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Former bitcoin mine bought from Argo Blockchain in 2022, converted to AI/HPC. capacity_mw is total approved power capacity (1.63 GW); 800 MW of gross power (526 MW critical IT) is contracted to CoreWeave across Phases I-III under 15-year leases. Galaxy cites potential of as much as 3.6 GW (Dow Jones reported up to 3.5 GW). Phase I delivered 133 MW critical IT (about 200 MW gross) with rent from Q2 2026; Phase II (260 MW critical IT, 400 MW utility capacity) is under construction. The campus covers more than 2,200 acres in Dickens County; coordinates are the county centre."
+  },
+  {
+    "id": "meta-el-paso",
+    "name": "Meta El Paso data center campus",
+    "developer": "Meta and BlackRock joint venture (BlackRock-managed funds 80%, Meta 20%)",
+    "tenants": [
+      "Meta"
+    ],
+    "city": "El Paso",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 31.75917,
+    "lng": -106.48861,
+    "location_precision": "city",
+    "capacity_mw": 1000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas"
+    ],
+    "onsite_generation": true,
+    "utility": "El Paso Electric",
+    "power_notes": "El Paso Electric filed plans for the 366 MW McCloud Generation plant (813 modular gas generators) next to the site, to serve only the data center during a five-year bridge period starting in 2027, separate from EPE's transmission system; grid connection and cost recovery await later regulatory proceedings.",
+    "status": "under_construction",
+    "announced": "2025-10",
+    "expected_online": "2028",
+    "investment_usd_bn": 14,
+    "sources": [
+      {
+        "title": "Meta hands BlackRock majority stake in 1 GW El Paso data center",
+        "publisher": "W.Media",
+        "url": "https://w.media/meta-hands-blackrock-majority-stake-in-1-gw-el-paso-data-center/",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Meta funds El Paso nat gas plant as interim power fix",
+        "publisher": "Argus Media",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2810465-meta-funds-el-paso-nat-gas-plant-as-interim-power-fix",
+        "date": "2026-04-06"
+      },
+      {
+        "title": "Meta raises El Paso data centre investment to $10bn",
+        "publisher": "Silicon UK",
+        "url": "https://www.silicon.co.uk/cloud/datacenter/meta-data-centre-el-paso-629273",
+        "date": "2026-03-30"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "The $14B is the total development cost of the Meta-BlackRock joint venture announced in July 2026; Meta has committed more than $10B. The investment was first announced at $1.5B in October 2025. El Paso Electric filings cited projected load above 440 MW by 2027 and potentially 1 GW by 2029."
+  },
+  {
+    "id": "microsoft-pecos-texas",
+    "name": "Microsoft Pecos AI campus",
+    "developer": "Microsoft",
+    "tenants": [
+      "Microsoft"
+    ],
+    "city": "Pecos",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 31.41556,
+    "lng": -103.5,
+    "location_precision": "city",
+    "capacity_mw": 2000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "A co-located natural gas plant (Project Kilby, about 2.67 GW of generation over time) developed by Energy Forge One will supply the campus under a 20-year PPA with Microsoft, operating behind the meter and not initially connected to the grid.",
+    "status": "announced",
+    "announced": "2026-06",
+    "expected_online": "2028",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Microsoft Expands Global Data Center Capacity with 2 GW Data Center and Co-Located Power Facility",
+        "publisher": "Orrick",
+        "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Chevron inks deal to power Microsoft data center in Texas",
+        "publisher": "E&E News",
+        "url": "https://www.eenews.net/articles/chevron-inks-deal-to-power-microsoft-data-center-in-texas/",
+        "date": "2026-06-22"
+      },
+      {
+        "title": "Chevron strikes agreement with Microsoft to power Texas data center with natural gas",
+        "publisher": "Washington Examiner",
+        "url": "https://washingtonexaminer.com/policy/technology/4618489/chevron-agreement-microsoft-power-texas-data-center-natural-gas",
+        "date": "2026-06-22"
+      },
+      {
+        "title": "Texas politics may delay Chevron data centre decision, Semafor reports",
+        "publisher": "The Next Web",
+        "url": "https://thenextweb.com/news/texas-politics-delay-chevron-microsoft-data-centre",
+        "date": "2026-10-01"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Located in Reeves County. Microsoft describes a multibillion-dollar investment without a figure. As of October 2026 early earthworks were reported, permits were pending after a Texas order pausing new environmental permits for data centers, and the power plant's final investment decision could slip to 2027; first power is still targeted for 2028. Sources differ on Energy Forge One's ownership (wholly owned Chevron subsidiary vs. a Chevron-Joulent 50/50 joint venture)."
+  },
+  {
+    "id": "nexus-hubbard",
+    "name": "Nexus Hubbard campus",
+    "developer": "Nexus Data Centers",
+    "tenants": [
+      "Anthropic"
+    ],
+    "city": "Hubbard",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 31.84694,
+    "lng": -96.80028,
+    "location_precision": "city",
+    "capacity_mw": 7700,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Reported to rely on dedicated behind-the-meter gas-fired generation, supported by nearby Energy Transfer and Atmos Energy gas pipelines.",
+    "status": "under_construction",
+    "announced": "2026",
+    "expected_online": "2027-10 (first building, per state filing)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Anthropic-Linked Nexus Data Centers Lining Up Roughly $15B in Bridge Financing From Banks",
+        "publisher": "Octus",
+        "url": "https://octus.com/resources/articles/anthropic-linked-nexus-data-centers-lining-up-roughly-15b-in-bridge-financing-from-banks/",
+        "date": "2026-07-22"
+      },
+      {
+        "title": "Google Backs $5B Texas Data Center for Anthropic, Deepening AI Infrastructure Push",
+        "publisher": "TheEnergyMag",
+        "url": "https://theenergymag.com/news/2026-03-30/google-texas-anthropic-ai",
+        "date": "2026-03-30"
+      },
+      {
+        "title": "TABS project TABS2026023798: Nexus Apex HB2",
+        "publisher": "Texas Department of Licensing and Regulation",
+        "url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026023798",
+        "date": "2026"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Campus of about 2,800 to 2,900 acres in Hill County. The Financial Times reported in March 2026 that it would be leased to Anthropic, that the first phase would provide about 500 MW and cost more than $5 billion, and that the campus could scale to as much as 7.7 GW (the upper figure used here). Google was reported to be providing construction financing; neither company commented publicly. State filings list a first building finishing in October 2027 and a second building (491,378 sq ft, $400 million) scheduled from June 2026 to January 2028."
+  },
+  {
+    "id": "poolside-project-horizon",
+    "name": "Project Horizon",
+    "developer": "Poolside",
+    "tenants": [],
+    "city": null,
+    "region": "Texas",
+    "country": "United States",
+    "lat": 30.78,
+    "lng": -102.72,
+    "location_precision": "county",
+    "capacity_mw": 2000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "battery_storage",
+      "grid"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Planned behind-the-meter generation using aero-derivative gas turbines with SCR emissions control next to a Permian Basin gas hub, plus battery storage for load balancing and a grid interconnection for redundancy.",
+    "status": "announced",
+    "announced": "2025-10",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "How CoreWeave and Poolside Are Teaming Up in West Texas to Build the Next Generation of AI Data Centers",
+        "publisher": "Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/machine-learning/article/55326541/how-coreweave-and-poolside-are-teaming-up-in-west-texas-to-build-the-next-generation-of-ai-data-centers",
+        "date": "2025-10-29"
+      },
+      {
+        "title": "Giant data center coming to West Texas ranch",
+        "publisher": "El Paso Inc (The Wall Street Journal)",
+        "url": "https://www.elpasoinc.com/townnews/hydrography/giant-data-center-coming-to-west-texas-ranch/article_4290e637-b820-4b20-acb9-035ca14319a5.html",
+        "date": "2025-10-19"
+      },
+      {
+        "title": "Poolside pursues new partners for Texas data center following CoreWeave deal breakdown",
+        "publisher": "Baxtel (citing the Financial Times)",
+        "url": "https://baxtel.com/news/poolside-pursues-new-partners-for-texas-data-center-following-coreweave-deal-breakdown",
+        "date": "2026-04-04"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Planned as eight 250 MW phases on 568 acres of the Mitchell family's Longfellow Ranch in West Texas; the developers named Pecos County as a partner, so coordinates are the Pecos County centre. CoreWeave was announced in October 2025 as anchor tenant for the first 250 MW phase, but the Financial Times reported in April 2026 that the partnership had fallen apart and Poolside was seeking new partners for up to 400 MW. No replacement tenant or construction start was found."
+  },
+  {
+    "id": "fermi-project-matador",
+    "name": "Project Matador",
+    "developer": "Fermi America (Fermi Inc.)",
+    "tenants": [
+      "TensorWave"
+    ],
+    "city": "Amarillo",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 35.4,
+    "lng": -101.35,
+    "location_precision": "county",
+    "capacity_mw": 17000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "nuclear",
+      "solar",
+      "battery_storage",
+      "grid"
+    ],
+    "onsite_generation": true,
+    "utility": null,
+    "power_notes": "Fermi plans to deliver power behind the meter on a private grid built on site, combining a combined-cycle natural gas project, a planned nuclear complex (applications filed for four AP1000 reactors, not yet licensed), solar, battery storage and some utility grid power. TCEQ approved a major gas power air permit in February 2026.",
+    "status": "under_construction",
+    "announced": null,
+    "expected_online": "2027-H2 (first TensorWave capacity)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Fermi and TensorWave Agree to Extend Closing Date to October 31, 2026",
+        "publisher": "Fermi (Newswire)",
+        "url": "https://www.newswire.com/news/fermi-and-tensorwave-agree-to-extend-closing-date-to-october-31-2026",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "Fermi signs $6.5 billion lease for 'world's largest data center' after months of turmoil",
+        "publisher": "ABC 7 Amarillo",
+        "url": "https://abc7amarillo.com/news/local/fermi-america-signs-six-point-five-billion-dollar-lease-for-worlds-largest-data-center-after-months-of-turmoil-tensorwave-amarillo-texas-carson-county-water-city-council-greg-abbott-audir",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "Fermi: Project Matador report",
+        "publisher": "Cleanview",
+        "url": "https://www.cleanview.co/reports/fermi",
+        "date": "2026-04"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "capacity_mw is Fermi's stated ramp target of about 17 GW, subject to binding customer agreements; the campus was first pitched at 11 GW and about 6 GW is permitted. The campus is in Carson County, northeast of Amarillo, next to the Pantex plant; coordinates are the Carson County centre. The 15-year, 222 MW TensorWave lease (intended to grow above 650 MW) was signed in August 2026 but had not closed; on 2026-09-22 the closing deadline was moved to 2026-10-31. Fermi reports more than $1.5 billion invested to date; Cleanview's satellite review found little visible construction change between February and April 2026."
+  },
+  {
+    "id": "aws-project-spectrum-comanche-peak",
+    "name": "Project Spectrum (Comanche Peak)",
+    "developer": "Amazon Web Services (Amazon Data Services)",
+    "tenants": [
+      "Amazon Web Services"
+    ],
+    "city": "Glen Rose",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 32.22,
+    "lng": -97.77,
+    "location_precision": "county",
+    "capacity_mw": 1200,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "nuclear"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "Vistra will supply up to 1,200 MW from the adjacent Comanche Peak nuclear plant under a 20-year power purchase agreement, with initial energization expected in 2027 and full ramp-up by 2032.",
+    "status": "announced",
+    "announced": "2026-02",
+    "expected_online": "2027",
+    "investment_usd_bn": 5,
+    "sources": [
+      {
+        "title": "Vistra executives say Texas data center pause will not affect Comanche Peak deal with Amazon",
+        "publisher": "Utility Dive",
+        "url": "https://www.utilitydive.com/news/vistra-texas-data-center-pause-comanche-amazon-earnings/827434/",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "Amazon and Meta agreements boost Vistra nuclear plants",
+        "publisher": "World Nuclear News",
+        "url": "https://world-nuclear-news.org/articles/ppas-support-extended-operations-at-vistra-plants",
+        "date": "2026-02-27"
+      },
+      {
+        "title": "Amazon to collocate $5 billion Project Spectrum data center campus in Texas with nuclear power plant",
+        "publisher": "Construction Review Online",
+        "url": "https://constructionreviewonline.com/amazon-to-collocate-5-billion-project-spectrum-data-center-campus-in-texas-with-nuclear-power-plant/",
+        "date": "2026-02-25"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Capacity is the size of the Vistra power purchase agreement; Amazon has not published the campus load. Reports conflict on location: about 435 acres of Vistra land in Somervell County (up to 18 buildings) or a 1,265-acre Hood County parcel near Granbury; coordinates are the Somervell County centre. Local reports said construction could begin in 2027, while Vistra said in August 2026 the facility was on track to energize in 2027."
+  },
+  {
+    "id": "stargate-abilene",
+    "name": "Stargate Abilene (Crusoe Abilene campus)",
+    "developer": "Crusoe",
+    "tenants": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "city": "Abilene",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 32.45,
+    "lng": -99.75,
+    "location_precision": "city",
+    "capacity_mw": 1200,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid",
+      "natural_gas"
+    ],
+    "onsite_generation": true,
+    "utility": "ERCOT (grid operator)",
+    "power_notes": "Crusoe says the campus connects directly to the ERCOT grid and that on-site GE Vernova natural gas turbines provide grid reliability support and will serve as backup power for the data halls. A March 2025 report also described planned behind-the-meter battery storage and solar.",
+    "status": "partially_operational",
+    "announced": "2024",
+    "expected_online": "2026",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Oracle Q1 Earnings Call Highlights",
+        "publisher": "MarketBeat via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-q1-earnings-call-highlights-230310387.html",
+        "date": "2026-09-11"
+      },
+      {
+        "title": "Crusoe tops off final AI data center in Abilene, Texas",
+        "publisher": "W.Media",
+        "url": "https://w.media/crusoe-tops-off-final-ai-data-center-in-abilene-texas/",
+        "date": "2025-11-18"
+      },
+      {
+        "title": "An inside look at the Abilene AI data center",
+        "publisher": "Crusoe",
+        "url": "https://crusoe.ai/blog/an-inside-look-at-the-abilene-ai-data-center",
+        "date": "2025-08-05"
+      },
+      {
+        "title": "Crusoe Adds 4.5 GW Natural Gas to Fuel AI, Expands Abilene Data Center to 1.2 GW",
+        "publisher": "Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/hyperscale/article/55276169/crusoe-adds-45-gw-natural-gas-to-fuel-ai-expands-abilene-data-center-to-12-gw",
+        "date": "2025-03-24"
+      },
+      {
+        "title": "Flagship Stargate Data Center Campus Expansion in Texas is Questioned",
+        "publisher": "Industrial Info Resources",
+        "url": "https://www.industrialinfo.com/news/article/flagship-stargate-data-center-campus-expansion-in-texas-is-questioned--354568",
+        "date": "2026-03-10"
+      },
+      {
+        "title": "1.2GW AI Campus in Abilene Moves to Phase Two",
+        "publisher": "Converge Digest",
+        "url": "https://convergedigest.com/1-2gw-ai-campus-in-abilene-moves-to-phase-two/",
+        "date": "2025-05-21"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Eight buildings on the Lancium Clean Campus; construction of the first phase began in 2024. Oracle said on 10 September 2026 that six of eight buildings, representing 618 MW and 75% of the site's total capacity, had been delivered to the customer. The 1,200 MW figure is the total planned power capacity reported for the eight-building campus. Full completion was originally targeted for mid-2026. OpenAI said in March 2026 it had considered expanding the campus further but chose to put that capacity in other locations."
+  },
+  {
+    "id": "stargate-milam-county",
+    "name": "Stargate Milam County",
+    "developer": "SB Energy (SoftBank Group)",
+    "tenants": [
+      "OpenAI"
+    ],
+    "city": "Milam County",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 30.79,
+    "lng": -96.98,
+    "location_precision": "county",
+    "capacity_mw": 1200,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "solar",
+      "battery_storage"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "SB Energy says it plans to build new generation for the site's energy needs, and pv magazine reports the campus will be powered by new solar generation and battery storage. The sources do not state how the site connects to the grid.",
+    "status": "under_construction",
+    "announced": "2025-09",
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "OpenAI and SoftBank Group Partner with SB Energy to Build and Operate Next-Generation AI Data Centers to Advance Stargate",
+        "publisher": "SB Energy",
+        "url": "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+        "date": "2026-01-09"
+      },
+      {
+        "title": "SB Energy secures $1 billion from OpenAI and SoftBank for Stargate datacenter expansion",
+        "publisher": "pv magazine USA",
+        "url": "http://pv-magazine-usa.com/2026/01/12/sb-energy-secures-1-billion-from-openai-and-softbank-for-stargate-datacenter-expansion/",
+        "date": "2026-01-12"
+      },
+      {
+        "title": "OpenAI Stargate: where the US sites stand",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04-17"
+      },
+      {
+        "title": "OpenAI's Stargate project to pave the world with AI datacenters announces five new US locations",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/2025/09/24/openai_oracle_softbank_datacenters/",
+        "date": "2025-09-24"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "OpenAI signed a 1.2 GW lease for the initial buildout, and SB Energy will build and operate the site. OpenAI and SoftBank Group each invested $500 million in SB Energy in January 2026. Epoch AI reported steel framing and roofing on the first building in March 2026 satellite imagery."
+  },
+  {
+    "id": "iren-sweetwater-1",
+    "name": "Sweetwater 1",
+    "developer": "IREN",
+    "tenants": [],
+    "city": "Sweetwater",
+    "region": "Texas",
+    "country": "United States",
+    "lat": 32.47,
+    "lng": -100.41,
+    "location_precision": "city",
+    "capacity_mw": 1400,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid"
+    ],
+    "onsite_generation": null,
+    "utility": "ERCOT (grid operator)",
+    "power_notes": "Grid-connected: IREN energized the site's high-voltage substation in 2026, connecting it to the ERCOT grid. IREN's 2025 materials describe a 1.4 GW bulk substation (345kV/138kV).",
+    "status": "under_construction",
+    "announced": null,
+    "expected_online": "2027 (initial phase)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "IREN Reports Q3 FY26 Results",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000025/irenreportsq3fy26results.htm",
+        "date": "2026-05-07"
+      },
+      {
+        "title": "IREN Rallies 11% on Sweetwater Energization Milestone Amid AI Power Race",
+        "publisher": "The Energy Mag",
+        "url": "https://www.theenergymag.com/news/2026-05-04/iren-ai-sweetwater",
+        "date": "2026-05-04"
+      },
+      {
+        "title": "IREN Q2 FY25 Results Presentation",
+        "publisher": "IREN (SEC filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000009/q2fy25resultspresentatio.htm",
+        "date": "2025-02-12"
+      },
+      {
+        "title": "IREN announces plans to expand in Sweetwater with 2GW data center hub",
+        "publisher": "KTAB BigCountryHomepage",
+        "url": "https://www.bigcountryhomepage.com/news/iren-annouces-plans-to-expand-in-sweetwater-with-2gw-data-center-hub/amp",
+        "date": "2025-02"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Sweetwater 1 is a 1.4 GW site. With the 600 MW Sweetwater 2 site about 28 miles away (energization expected 2028 per IREN's February 2025 presentation), IREN describes a 2 GW Sweetwater hub. IREN's May 2026 release places Sweetwater 1's initial phase in its 2027 expansion and says additional Sweetwater capacity ramps from 2028. No customer named in sources opened."
+  },
+  {
+    "id": "joule-millard-county",
+    "name": "Joule high performance compute campus",
+    "developer": "Joule Capital Partners",
+    "tenants": [],
+    "city": null,
+    "region": "Utah",
+    "country": "United States",
+    "lat": 39.07,
+    "lng": -113.1,
+    "location_precision": "county",
+    "capacity_mw": 4000,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas",
+      "battery_storage",
+      "grid"
+    ],
+    "onsite_generation": true,
+    "utility": "PacifiCorp",
+    "power_notes": "On-site Caterpillar G3520K natural gas generator sets with combined cooling, heat and power, plus 1.1 GWh of battery storage; gas arrives via two connections to the Kern River pipeline. BNEF reports the site is grid-connected but Joule plans to self-supply baseload power.",
+    "status": "under_construction",
+    "announced": "2025-08",
+    "expected_online": "2026-Q4 (455 MW contracted delivery target)",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Joule Capital Taps Caterpillar to Power Huge AI, HPC Data Center in Utah",
+        "publisher": "Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/site-selection/article/55313620/joule-capital-caterpillar-team-on-ai-hpc-in-utah",
+        "date": "2025-09-02"
+      },
+      {
+        "title": "US Data Center Builder Goes Off Grid to Speed Deployments",
+        "publisher": "BloombergNEF",
+        "url": "https://about.bnef.com/insights/commodities/us-data-center-builder-goes-off-grid-to-speed-deployments/",
+        "date": "2026-02-27"
+      },
+      {
+        "title": "To power Utah's data center boom, companies are turning to fossil fuels",
+        "publisher": "Grist / The Salt Lake Tribune",
+        "url": "https://grist.org/?p=691176",
+        "date": "2026-02-24"
+      },
+      {
+        "title": "Groundbreaking for Millard County data center",
+        "publisher": "ABC4 Utah",
+        "url": "https://www.abc4.com/news/central-utah/groundbreaking-millard-county-data-center/amp/",
+        "date": "2025-11"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "capacity_mw is the 4 GW of prime power announced in August 2025 for a 4,000-acre site in Millard County; coordinates are the county centre. BNEF (February 2026) reports a first phase of 1.5 GW by early 2028 using 636 Caterpillar gas engines, with 455 MW of firm contracted delivery by end of 2026 and no customers signed at that time. A groundbreaking was held on 2025-11-06 (ABC4), while Grist (February 2026) said construction was slated to begin in spring 2026. No tenant named."
+  },
+  {
+    "id": "microsoft-fairwater-mount-pleasant",
+    "name": "Fairwater (Mount Pleasant)",
+    "developer": "Microsoft",
+    "tenants": [
+      "Microsoft"
+    ],
+    "city": "Mount Pleasant",
+    "region": "Wisconsin",
+    "country": "United States",
+    "lat": 42.72583,
+    "lng": -87.89194,
+    "location_precision": "city",
+    "capacity_mw": 900,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas",
+      "solar"
+    ],
+    "onsite_generation": null,
+    "utility": "We Energies",
+    "power_notes": "Served by We Energies. Microsoft has said new natural gas-fired generation is required and is working with We Energies on it; Microsoft also has a power purchase agreement for a 250 MW solar plant in Portage County, Wisconsin.",
+    "status": "partially_operational",
+    "announced": null,
+    "expected_online": "2028",
+    "investment_usd_bn": 7,
+    "sources": [
+      {
+        "title": "Microsoft completes construction on first datacenter facility in Mount Pleasant, Wisconsin",
+        "publisher": "Microsoft",
+        "url": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Microsoft opens the Fairwater data center in Mount Pleasant",
+        "publisher": "Racine County Eye (via Civic Media)",
+        "url": "https://civicmedia.us/news/2026/06/24/microsoft-opens-the-fairwater-data-center-in-mount-pleasant",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "Microsoft to More Than Double Billions in Spending at Wisconsin Data Center Site",
+        "publisher": "Industrial Info Resources",
+        "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/microsoft-to-more-than-double-billions-in-spending-at-wisconsin-data-center-site--346080",
+        "date": "2025-09-22"
+      },
+      {
+        "title": "Microsoft building second datacenter in Mount Pleasant",
+        "publisher": "WISN",
+        "url": "https://www.wisn.com/article/microsoft-building-second-datacenter-in-mount-pleasant/67954214",
+        "date": "2025-09-18"
+      },
+      {
+        "title": "Microsoft Announces Additional $4 Billion Investment in Wisconsin",
+        "publisher": "Wisconsin Public Radio (via Urban Milwaukee)",
+        "url": "https://urbanmilwaukee.com/2025/09/18/microsoft-announces-additional-4-billion-investment-in-wisconsin/",
+        "date": "2025-09-18"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "The roughly 900 MW figure for both facilities was attributed to Brad Smith via CNBC and has not been published officially; the first facility was reported at about 400 MW (another estimate: 450 MW). The first facility became fully operational in June 2026; the second is under construction and scheduled for completion in 2028. Local reporting says 15 more buildings were approved on additional campuses, which are not included here. Investment is Microsoft's stated total of more than $7B in Wisconsin."
+  },
+  {
+    "id": "stargate-port-washington-lighthouse",
+    "name": "Lighthouse (Stargate Wisconsin)",
+    "developer": "Vantage Data Centers",
+    "tenants": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "city": "Port Washington",
+    "region": "Wisconsin",
+    "country": "United States",
+    "lat": 43.39333,
+    "lng": -87.88111,
+    "location_precision": "city",
+    "capacity_mw": 1400,
+    "capacity_basis": "facility",
+    "power_sources": [
+      "grid",
+      "wind",
+      "solar",
+      "battery_storage"
+    ],
+    "onsite_generation": null,
+    "utility": "We Energies",
+    "power_notes": "Supplied by We Energies under a dedicated data center rate, with a proposed $1.4 billion American Transmission Co. interconnection project under Public Service Commission review. Vantage says it is paying for a 2,000 MW energy buildout that includes wind, solar and battery storage. The Wisconsin DNR permitted 45 diesel emergency generators in June 2026.",
+    "status": "under_construction",
+    "announced": "2025",
+    "expected_online": "2028",
+    "investment_usd_bn": 15,
+    "sources": [
+      {
+        "title": "Port Washington data center campus will be $15B hub for OpenAI, Oracle 'Stargate' program",
+        "publisher": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/news/port-washington-data-center-campus-openai-oracle-stargate-chatgpt",
+        "date": "2025-10-23"
+      },
+      {
+        "title": "Companies behind Port Washington data centers meet with neighbors",
+        "publisher": "FOX 11 / WITI-TV",
+        "url": "https://fox11online.com/news/state/port-washington-data-center-project-lighthouse-construction-open-house-neighbor-concerns-companies-representatives-vantage-oracle-openai",
+        "date": "2026-09-11"
+      },
+      {
+        "title": "Vantage data center energy costs: who pays the bill in Port Washington, Wisconsin",
+        "publisher": "TMJ4",
+        "url": "https://www.tmj4.com/news/local-news/in-your-community/ozaukee-county/vantage-data-center-energy-costs-who-pays-the-bill-in-port-washington-wisconsin",
+        "date": "2026"
+      },
+      {
+        "title": "Port Washington Data Center Proposal",
+        "publisher": "Wisconsin Department of Natural Resources",
+        "url": "https://dnr.wisconsin.gov/topic/EIA/PortWashington.html",
+        "date": "2026-06"
+      },
+      {
+        "title": "OpenAI Stargate: where the US sites stand",
+        "publisher": "Epoch AI",
+        "url": "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04-17"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Four buildings on a 672-acre site in Ozaukee County. Capacity figures differ: Wisconsin Public Radio reported the buildings would need 1.3 GW of electricity, while Vantage has said the campus will need 1,400 MW; the higher figure is used here. Construction was ongoing in September 2026 and the campus is expected to open in 2028."
+  },
+  {
+    "id": "google-project-tembo-cheyenne",
+    "name": "Project Tembo (formerly Project Jade)",
+    "developer": "Google (subsidiary Jupiter Star Holdings)",
+    "tenants": [
+      "Google"
+    ],
+    "city": "Cheyenne",
+    "region": "Wyoming",
+    "country": "United States",
+    "lat": 41.12111,
+    "lng": -104.78972,
+    "location_precision": "city",
+    "capacity_mw": 2700,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "grid",
+      "natural_gas",
+      "fuel_cell"
+    ],
+    "onsite_generation": true,
+    "utility": "Black Hills Energy",
+    "power_notes": "Black Hills plans 564 MW of new gas generation at its Cheyenne Prairie Generating Station, up to 590 MW of grid-connected service, and management of about 2.1 GW of third-party resources through a privately managed microgrid, for a 2.7 GW resource mix. Tallgrass Energy said it would combine Black Hills Energy supply, fuel cells and its own power plant for the campus.",
+    "status": "announced",
+    "announced": "2026-07",
+    "expected_online": "2027-H2",
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "Say Hello To Google, The Mystery Owner Behind Wyoming's Largest Data Center Project",
+        "publisher": "Cowboy State Daily",
+        "url": "https://cowboystatedaily.com/2026/07/08/google-revealed-as-owner-of-wyomings-largest-data-center-now-project-tembo/",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Black Hills Corp. Form 8-K, Exhibit 99.1 (Cheyenne data center agreements)",
+        "publisher": "Black Hills Corp. (SEC EDGAR)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001130464/000119312526415597/bkh-ex99_1.htm",
+        "date": "2026-10-06"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "The site is about 8 miles south of Cheyenne in Laramie County's Switchgrass Industrial Park (716 acres); coordinates are the Cheyenne city centre. Crusoe previously developed it as the 1.8 GW Project Jade; a Google subsidiary took over in 2026. Black Hills says the project is to begin taking energy service in late 2027 and reach peak load in 2030; the site application cites completion in 2031. Reported investment figures conflict ($18B vs $50B) and are omitted. Data center construction was not confirmed as of October 2026."
+  },
+  {
+    "id": "prometheus-hyperscale-evanston",
+    "name": "Prometheus Hyperscale Evanston campus",
+    "developer": "Prometheus Hyperscale",
+    "tenants": [],
+    "city": "Evanston",
+    "region": "Wyoming",
+    "country": "United States",
+    "lat": 41.27,
+    "lng": -110.96,
+    "location_precision": "city",
+    "capacity_mw": 1250,
+    "capacity_basis": "unspecified",
+    "power_sources": [
+      "natural_gas"
+    ],
+    "onsite_generation": null,
+    "utility": null,
+    "power_notes": "The founder says the campus will run mostly on natural gas, with nuclear desired eventually. A further county meeting on power infrastructure was planned as of August 2026.",
+    "status": "announced",
+    "announced": null,
+    "expected_online": null,
+    "investment_usd_bn": null,
+    "sources": [
+      {
+        "title": "1.25GW data center approved on ranchland near Evanston, Wyoming",
+        "publisher": "KPCW",
+        "url": "https://www.kpcw.org/state-regional/2026-06-19/1-25gw-data-center-approved-on-ranchland-near-evanston-wyoming",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "Prometheus Pushes Ahead On $32B Wyoming Data Centers As Legal Challenge Fades",
+        "publisher": "Cowboy State Daily",
+        "url": "https://cowboystatedaily.com/2026/08/25/prometheus-pushes-ahead-on-32b-wyoming-data-centers-as-legal-challenge-fades/",
+        "date": "2026-08-25"
+      }
+    ],
+    "last_verified": "2026-10-26",
+    "notes": "Site is on 506 acres about 12 miles east of Evanston in Uinta County; coordinates are Evanston. Uinta County approved a conditional use permit in June 2026 and a court dismissed a challenge in August 2026; construction had not begun and is to start within six months of final permitting and take four to five years. The company estimates $32 billion across its Uinta and Natrona county projects combined."
+  }
+]
